@@ -1,0 +1,574 @@
+2016-12-13 12:31:08.381 [ERROR] [WaveController$ZWaveSendThread:1211 ] - NODE 16: Timeout while sending message. Requeueing - 0 attempts left!
+2016-12-13 12:31:08.381 [ERROR] [b.z.i.p.s.SendDataMessageClass:162  ] - NODE 16: Got an error while sending data. Resending message.
+2016-12-13 12:31:08.382 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 4. Queue={}
+2016-12-13 12:31:08.382 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 3
+2016-12-13 12:31:08.382 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 13 10 02 25 02 25 0A FF 
+2016-12-13 12:31:08.382 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 09 00 13 10 02 25 02 25 0A FF 
+2016-12-13 12:31:08.385 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_ack updated to 21
+2016-12-13 12:31:08.386 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_ack changed from 20 to 21
+2016-12-13 12:31:08.389 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 25
+2016-12-13 12:31:08.388 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-13 12:31:08.389 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:31:08.390 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-13 12:31:08.390 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-13 12:31:08.390 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-13 12:31:08.390 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-13 12:31:08.391 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 24 to 25
+2016-12-13 12:31:08.400 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 26
+2016-12-13 12:31:08.399 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 0A 00 E3 
+2016-12-13 12:31:08.400 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:31:08.401 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 25 to 26
+2016-12-13 12:31:08.401 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 0A 00 00 00 E1 
+2016-12-13 12:31:08.401 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 0A 00 00 00 E1 
+2016-12-13 12:31:08.401 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=0A 00 
+2016-12-13 12:31:08.401 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 10, Status = Transmission complete and ACK received(0)
+2016-12-13 12:31:08.402 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 25 02 
+2016-12-13 12:31:08.402 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=0A 00 
+2016-12-13 12:31:08.402 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=10, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+2016-12-13 12:31:13.359 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:1212 ] - NODE 16: Stage DYNAMIC_VALUES. Initialisation retry timer triggered. Increased to 20000
+2016-12-13 12:31:13.360 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:269  ] - NODE 16: Node advancer - DYNAMIC_VALUES: queue length(0), free to send(false)
+2016-12-13 12:31:13.360 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:1244 ] - NODE 16: Initialisation retry timer started 20000
+2016-12-13 12:31:13.360 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:327  ] - NODE 16: Node advancer: loop - DYNAMIC_VALUES try 2: stageAdvanced(false)
+2016-12-13 12:31:13.361 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:902  ] - NODE 16: Node advancer: DYNAMIC_VALUES - checking MANUFACTURER_SPECIFIC
+2016-12-13 12:31:13.361 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:902  ] - NODE 16: Node advancer: DYNAMIC_VALUES - checking SWITCH_ALL
+2016-12-13 12:31:13.361 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:902  ] - NODE 16: Node advancer: DYNAMIC_VALUES - checking VERSION
+2016-12-13 12:31:13.361 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:902  ] - NODE 16: Node advancer: DYNAMIC_VALUES - checking NO_OPERATION
+2016-12-13 12:31:13.361 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:902  ] - NODE 16: Node advancer: DYNAMIC_VALUES - checking ASSOCIATION
+2016-12-13 12:31:13.361 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:902  ] - NODE 16: Node advancer: DYNAMIC_VALUES - checking SWITCH_BINARY
+2016-12-13 12:31:13.361 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:905  ] - NODE 16: Node advancer: DYNAMIC_VALUES - found    SWITCH_BINARY
+2016-12-13 12:31:13.362 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:909  ] - NODE 16: Found 1 instances of SWITCH_BINARY
+2016-12-13 12:31:13.362 [DEBUG] [.ZWaveBinarySwitchCommandClass:126  ] - NODE 16: Creating new message for application command SWITCH_BINARY_GET
+2016-12-13 12:31:13.362 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:902  ] - NODE 16: Node advancer: DYNAMIC_VALUES - checking SENSOR_MULTILEVEL
+2016-12-13 12:31:13.362 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:905  ] - NODE 16: Node advancer: DYNAMIC_VALUES - found    SENSOR_MULTILEVEL
+2016-12-13 12:31:13.362 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:909  ] - NODE 16: Found 1 instances of SENSOR_MULTILEVEL
+2016-12-13 12:31:13.362 [DEBUG] [veMultiLevelSensorCommandClass:202  ] - NODE 16: Creating new message for command SENSOR_MULTI_LEVEL_GET
+2016-12-13 12:31:13.363 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:902  ] - NODE 16: Node advancer: DYNAMIC_VALUES - checking METER
+2016-12-13 12:31:13.363 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:905  ] - NODE 16: Node advancer: DYNAMIC_VALUES - found    METER
+2016-12-13 12:31:13.363 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:909  ] - NODE 16: Found 1 instances of METER
+2016-12-13 12:31:13.363 [DEBUG] [z.i.p.c.ZWaveMeterCommandClass:278  ] - NODE 16: Creating new message for application command METER_GET
+2016-12-13 12:31:13.363 [DEBUG] [z.i.p.c.ZWaveMeterCommandClass:278  ] - NODE 16: Creating new message for application command METER_GET
+2016-12-13 12:31:13.364 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:902  ] - NODE 16: Node advancer: DYNAMIC_VALUES - checking BASIC
+2016-12-13 12:31:13.364 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:902  ] - NODE 16: Node advancer: DYNAMIC_VALUES - checking CONFIGURATION
+2016-12-13 12:31:13.364 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:936  ] - NODE 16: Node advancer: DYNAMIC_VALUES - queued 4 frames
+2016-12-13 12:31:13.364 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:236  ] - NODE 16: Node advancer - queued packet. Queue length is 4
+2016-12-13 12:31:13.364 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 4. Queue={}
+2016-12-13 12:31:13.383 [WARN ] [WaveController$ZWaveSendThread:1219 ] - NODE 16: Too many retries. Discarding message: Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 25 02 
+2016-12-13 12:31:13.383 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 3
+2016-12-13 12:31:13.384 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 13 10 02 25 02 25 08 FD 
+2016-12-13 12:31:13.384 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 09 00 13 10 02 25 02 25 08 FD 
+2016-12-13 12:31:13.387 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_ack updated to 22
+2016-12-13 12:31:13.389 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_ack changed from 21 to 22
+2016-12-13 12:31:13.389 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-13 12:31:13.390 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:31:13.390 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-13 12:31:13.390 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 27
+2016-12-13 12:31:13.390 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-13 12:31:13.390 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-13 12:31:13.391 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-13 12:31:13.391 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 26 to 27
+2016-12-13 12:31:13.401 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 28
+2016-12-13 12:31:13.401 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 08 00 E1 
+2016-12-13 12:31:13.402 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:31:13.402 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 08 00 00 00 E3 
+2016-12-13 12:31:13.402 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 27 to 28
+2016-12-13 12:31:13.403 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 08 00 00 00 E3 
+2016-12-13 12:31:13.403 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=08 00 
+2016-12-13 12:31:13.403 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 8, Status = Transmission complete and ACK received(0)
+2016-12-13 12:31:13.403 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 25 02 
+2016-12-13 12:31:13.403 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=08 00 
+2016-12-13 12:31:13.403 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=8, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+2016-12-13 12:31:18.384 [ERROR] [WaveController$ZWaveSendThread:1211 ] - NODE 16: Timeout while sending message. Requeueing - 2 attempts left!
+2016-12-13 12:31:18.385 [ERROR] [b.z.i.p.s.SendDataMessageClass:162  ] - NODE 16: Got an error while sending data. Resending message.
+2016-12-13 12:31:18.385 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 4. Queue={}
+2016-12-13 12:31:18.386 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 3
+2016-12-13 12:31:18.386 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 13 10 02 25 02 25 0C F9 
+2016-12-13 12:31:18.386 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 09 00 13 10 02 25 02 25 0C F9 
+2016-12-13 12:31:18.389 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_ack updated to 23
+2016-12-13 12:31:18.390 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_ack changed from 22 to 23
+2016-12-13 12:31:18.391 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 29
+2016-12-13 12:31:18.391 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-13 12:31:18.392 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:31:18.392 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-13 12:31:18.392 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-13 12:31:18.393 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-13 12:31:18.393 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-13 12:31:18.393 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 28 to 29
+2016-12-13 12:31:18.403 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 0C 00 E5 
+2016-12-13 12:31:18.403 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 30
+2016-12-13 12:31:18.404 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:31:18.404 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 0C 00 00 00 E7 
+2016-12-13 12:31:18.404 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 0C 00 00 00 E7 
+2016-12-13 12:31:18.405 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=0C 00 
+2016-12-13 12:31:18.405 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 12, Status = Transmission complete and ACK received(0)
+2016-12-13 12:31:18.405 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 25 02 
+2016-12-13 12:31:18.405 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=0C 00 
+2016-12-13 12:31:18.406 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=12, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+2016-12-13 12:31:18.407 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 29 to 30
+2016-12-13 12:31:20.312 [DEBUG] [.b.z.i.p.s.AddNodeMessageClass:60   ] - Ending INCLUSION mode.
+2016-12-13 12:31:20.313 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 4. Queue={}
+2016-12-13 12:31:23.387 [ERROR] [WaveController$ZWaveSendThread:1211 ] - NODE 16: Timeout while sending message. Requeueing - 1 attempts left!
+2016-12-13 12:31:23.387 [ERROR] [b.z.i.p.s.SendDataMessageClass:162  ] - NODE 16: Got an error while sending data. Resending message.
+2016-12-13 12:31:23.387 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 5. Queue={}
+2016-12-13 12:31:23.388 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 4
+2016-12-13 12:31:23.388 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 00 4A 05 B4 
+2016-12-13 12:31:23.388 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 255: Sending REQUEST Message = 01 04 00 4A 05 B4 
+2016-12-13 12:31:23.390 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_ack updated to 24
+2016-12-13 12:31:23.391 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_ack changed from 23 to 24
+2016-12-13 12:31:23.442 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 31
+2016-12-13 12:31:23.442 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 07 00 4A 02 06 00 00 B6 
+2016-12-13 12:31:23.443 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:31:23.443 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 4A 02 06 00 00 B6 
+2016-12-13 12:31:23.443 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 4A 02 06 00 00 B6 
+2016-12-13 12:31:23.443 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 30 to 31
+2016-12-13 12:31:23.443 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=AddNodeToNetwork[0x4A], type=Request[0x00], priority=High, dest=255, payload=02 06 00 00 
+2016-12-13 12:31:23.444 [DEBUG] [.b.z.i.p.s.AddNodeMessageClass:98   ] - Add Node: Done.
+2016-12-13 12:31:23.444 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=AddNodeToNetwork[0x4A], type=Request[0x00], priority=High, dest=255, payload=05 
+2016-12-13 12:31:23.444 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=AddNodeToNetwork[0x4A], type=Request[0x00], priority=High, dest=255, payload=02 06 00 00 
+2016-12-13 12:31:23.444 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:95   ] - Checking transaction complete: class=AddNodeToNetwork, callback id=0, expected=AddNodeToNetwork, cancelled=false        transaction complete!
+2016-12-13 12:31:23.444 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveTransactionCompletedEvent
+2016-12-13 12:31:23.444 [DEBUG] [WaveController$ZWaveSendThread:1228 ] - NODE 255: Response processed after 56ms/56ms.
+2016-12-13 12:31:23.445 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 3
+2016-12-13 12:31:23.445 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 13 10 02 25 02 25 0D F8 
+2016-12-13 12:31:23.445 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 09 00 13 10 02 25 02 25 0D F8 
+2016-12-13 12:31:23.448 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_ack updated to 25
+2016-12-13 12:31:23.449 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_ack changed from 24 to 25
+2016-12-13 12:31:23.450 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-13 12:31:23.451 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:31:23.451 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-13 12:31:23.452 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 32
+2016-12-13 12:31:23.452 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-13 12:31:23.452 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-13 12:31:23.452 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-13 12:31:23.453 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 31 to 32
+2016-12-13 12:31:23.462 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 0D 00 E4 
+2016-12-13 12:31:23.462 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 33
+2016-12-13 12:31:23.463 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:31:23.463 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 0D 00 00 00 E6 
+2016-12-13 12:31:23.463 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 0D 00 00 00 E6 
+2016-12-13 12:31:23.464 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=0D 00 
+2016-12-13 12:31:23.464 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 13, Status = Transmission complete and ACK received(0)
+2016-12-13 12:31:23.464 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 25 02 
+2016-12-13 12:31:23.464 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=0D 00 
+2016-12-13 12:31:23.465 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=13, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+2016-12-13 12:31:23.465 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 32 to 33
+2016-12-13 12:31:23.469 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 34
+2016-12-13 12:31:23.469 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 09 00 04 00 10 03 25 03 00 C7 
+2016-12-13 12:31:23.470 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:31:23.470 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 04 00 10 03 25 03 00 C7 
+2016-12-13 12:31:23.471 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 09 00 04 00 10 03 25 03 00 C7 
+2016-12-13 12:31:23.471 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=ApplicationCommandHandler[0x04], type=Request[0x00], priority=High, dest=255, payload=00 10 03 25 03 00 
+2016-12-13 12:31:23.471 [DEBUG] [ApplicationCommandMessageClass:42   ] - NODE 16: Application Command Request (ALIVE:DYNAMIC_VALUES)
+2016-12-13 12:31:23.472 [DEBUG] [ApplicationCommandMessageClass:151  ] - NODE 16: Incoming command class SWITCH_BINARY
+2016-12-13 12:31:23.472 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 33 to 34
+2016-12-13 12:31:23.472 [DEBUG] [.ZWaveBinarySwitchCommandClass:81   ] - Received Switch Binary Request for Node ID = 16
+2016-12-13 12:31:23.472 [DEBUG] [.ZWaveBinarySwitchCommandClass:108  ] - NODE 16: Switch Binary report, value = 0
+2016-12-13 12:31:23.472 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveCommandClassValueEvent
+2016-12-13 12:31:23.473 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveCommandClassValueEvent
+2016-12-13 12:31:23.473 [DEBUG] [.b.z.handler.ZWaveThingHandler:844  ] - NODE 16: Got a value event from Z-Wave network, endpoint = 0, command class = SWITCH_BINARY, value = 0
+2016-12-13 12:31:23.473 [DEBUG] [.b.z.handler.ZWaveThingHandler:1024 ] - NODE 16: Config updated
+2016-12-13 12:31:23.620 [INFO ] [rthome.event.ThingUpdatedEvent:43   ] - Thing 'zwave:device:1579c2c54b2:node16' has been updated.
+2016-12-13 12:31:23.620 [DEBUG] [.b.z.handler.ZWaveThingHandler:1054 ] - Updating zwave:device:1579c2c54b2:node16:switch_binary to OFF
+2016-12-13 12:31:23.621 [INFO ] [s.event.ConfigStatusInfoEvent :43   ] - ConfigStatusInfo [configStatusMessages=[]]
+2016-12-13 12:31:23.621 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 25 02 
+2016-12-13 12:31:23.622 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=ApplicationCommandHandler[0x04], type=Request[0x00], priority=High, dest=255, payload=00 10 03 25 03 00 
+2016-12-13 12:31:23.622 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:95   ] - Checking transaction complete: class=ApplicationCommandHandler, callback id=13, expected=ApplicationCommandHandler, cancelled=false        transaction complete!
+2016-12-13 12:31:23.622 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveTransactionCompletedEvent
+2016-12-13 12:31:23.622 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:1137 ] - NODE 16: Node advancer - DYNAMIC_VALUES: Transaction complete (SendData:Request) success(true)
+2016-12-13 12:31:23.622 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:200  ] - NODE 16: Node advancer - checking initialisation queue. Queue size 4.
+2016-12-13 12:31:23.622 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:206  ] - NODE 16: Node advancer - message removed from queue. Queue size 3.
+2016-12-13 12:31:23.623 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:269  ] - NODE 16: Node advancer - DYNAMIC_VALUES: queue length(3), free to send(true)
+2016-12-13 12:31:23.623 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:1244 ] - NODE 16: Initialisation retry timer started 20000
+2016-12-13 12:31:23.623 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:236  ] - NODE 16: Node advancer - queued packet. Queue length is 3
+2016-12-13 12:31:23.623 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 4. Queue={}
+2016-12-13 12:31:23.623 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveTransactionCompletedEvent
+2016-12-13 12:31:23.624 [DEBUG] [WaveController$ZWaveSendThread:1228 ] - NODE 16: Response processed after 179ms/179ms.
+2016-12-13 12:31:23.624 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 3
+2016-12-13 12:31:23.624 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 13 10 02 25 02 25 0B FE 
+2016-12-13 12:31:23.624 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 09 00 13 10 02 25 02 25 0B FE 
+2016-12-13 12:31:23.625 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_device_1579c2c54b2_switch_binary updated to OFF
+2016-12-13 12:31:23.626 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_device_1579c2c54b2_node16_switch_binary updated to OFF
+2016-12-13 12:31:23.627 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_device_1579c2c54b2_switch_binary changed from NULL to OFF
+2016-12-13 12:31:23.628 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_device_1579c2c54b2_node16_switch_binary changed from NULL to OFF
+2016-12-13 12:31:23.629 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_ack updated to 26
+2016-12-13 12:31:23.629 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-13 12:31:23.630 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:31:23.630 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-13 12:31:23.630 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-13 12:31:23.631 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-13 12:31:23.631 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-13 12:31:23.630 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 35
+2016-12-13 12:31:23.632 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_ack changed from 25 to 26
+2016-12-13 12:31:23.632 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 34 to 35
+2016-12-13 12:31:23.642 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 36
+2016-12-13 12:31:23.642 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 0B 00 E2 
+2016-12-13 12:31:23.643 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:31:23.644 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 0B 00 00 00 E0 
+2016-12-13 12:31:23.644 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 0B 00 00 00 E0 
+2016-12-13 12:31:23.644 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=0B 00 
+2016-12-13 12:31:23.644 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 11, Status = Transmission complete and ACK received(0)
+2016-12-13 12:31:23.645 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 35 to 36
+2016-12-13 12:31:23.645 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 25 02 
+2016-12-13 12:31:23.645 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=0B 00 
+2016-12-13 12:31:23.645 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=11, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+2016-12-13 12:31:23.649 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 37
+2016-12-13 12:31:23.649 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 09 00 04 00 10 03 25 03 00 C7 
+2016-12-13 12:31:23.649 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:31:23.649 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 04 00 10 03 25 03 00 C7 
+2016-12-13 12:31:23.649 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 09 00 04 00 10 03 25 03 00 C7 
+2016-12-13 12:31:23.650 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=ApplicationCommandHandler[0x04], type=Request[0x00], priority=High, dest=255, payload=00 10 03 25 03 00 
+2016-12-13 12:31:23.650 [DEBUG] [ApplicationCommandMessageClass:42   ] - NODE 16: Application Command Request (ALIVE:DYNAMIC_VALUES)
+2016-12-13 12:31:23.650 [DEBUG] [ApplicationCommandMessageClass:151  ] - NODE 16: Incoming command class SWITCH_BINARY
+2016-12-13 12:31:23.650 [DEBUG] [.ZWaveBinarySwitchCommandClass:81   ] - Received Switch Binary Request for Node ID = 16
+2016-12-13 12:31:23.650 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 36 to 37
+2016-12-13 12:31:23.650 [DEBUG] [.ZWaveBinarySwitchCommandClass:108  ] - NODE 16: Switch Binary report, value = 0
+2016-12-13 12:31:23.650 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveCommandClassValueEvent
+2016-12-13 12:31:23.651 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveCommandClassValueEvent
+2016-12-13 12:31:23.651 [DEBUG] [.b.z.handler.ZWaveThingHandler:844  ] - NODE 16: Got a value event from Z-Wave network, endpoint = 0, command class = SWITCH_BINARY, value = 0
+2016-12-13 12:31:23.651 [DEBUG] [.b.z.handler.ZWaveThingHandler:1024 ] - NODE 16: Config updated
+2016-12-13 12:31:23.808 [DEBUG] [.b.z.handler.ZWaveThingHandler:1054 ] - Updating zwave:device:1579c2c54b2:node16:switch_binary to OFF
+2016-12-13 12:31:23.808 [INFO ] [rthome.event.ThingUpdatedEvent:43   ] - Thing 'zwave:device:1579c2c54b2:node16' has been updated.
+2016-12-13 12:31:23.809 [INFO ] [s.event.ConfigStatusInfoEvent :43   ] - ConfigStatusInfo [configStatusMessages=[]]
+2016-12-13 12:31:23.809 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 25 02 
+2016-12-13 12:31:23.810 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_device_1579c2c54b2_switch_binary updated to OFF
+2016-12-13 12:31:23.809 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=ApplicationCommandHandler[0x04], type=Request[0x00], priority=High, dest=255, payload=00 10 03 25 03 00 
+2016-12-13 12:31:23.810 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_device_1579c2c54b2_node16_switch_binary updated to OFF
+2016-12-13 12:31:23.810 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:95   ] - Checking transaction complete: class=ApplicationCommandHandler, callback id=11, expected=ApplicationCommandHandler, cancelled=false        transaction complete!
+2016-12-13 12:31:23.813 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveTransactionCompletedEvent
+2016-12-13 12:31:23.813 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:1137 ] - NODE 16: Node advancer - DYNAMIC_VALUES: Transaction complete (SendData:Request) success(true)
+2016-12-13 12:31:23.813 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:200  ] - NODE 16: Node advancer - checking initialisation queue. Queue size 3.
+2016-12-13 12:31:23.814 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveTransactionCompletedEvent
+2016-12-13 12:31:23.814 [DEBUG] [WaveController$ZWaveSendThread:1228 ] - NODE 16: Response processed after 189ms/189ms.
+2016-12-13 12:31:23.814 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 2
+2016-12-13 12:31:23.814 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 13 10 02 31 04 25 0E E9 
+2016-12-13 12:31:23.815 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 09 00 13 10 02 31 04 25 0E E9 
+2016-12-13 12:31:23.817 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_ack updated to 27
+2016-12-13 12:31:23.819 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_ack changed from 26 to 27
+2016-12-13 12:31:23.820 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 38
+2016-12-13 12:31:23.820 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-13 12:31:23.821 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:31:23.821 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 37 to 38
+2016-12-13 12:31:23.821 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-13 12:31:23.821 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-13 12:31:23.822 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-13 12:31:23.822 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-13 12:31:23.832 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 39
+2016-12-13 12:31:23.832 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 0E 00 E7 
+2016-12-13 12:31:23.832 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:31:23.833 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 38 to 39
+2016-12-13 12:31:23.833 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 0E 00 00 00 E5 
+2016-12-13 12:31:23.833 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 0E 00 00 00 E5 
+2016-12-13 12:31:23.833 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=0E 00 
+2016-12-13 12:31:23.833 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 14, Status = Transmission complete and ACK received(0)
+2016-12-13 12:31:23.834 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 31 04 
+2016-12-13 12:31:23.834 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=0E 00 
+2016-12-13 12:31:23.834 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=14, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+2016-12-13 12:31:23.840 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 40
+2016-12-13 12:31:23.840 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 0E 00 04 00 10 08 31 05 04 64 00 00 00 00 B9 
+2016-12-13 12:31:23.841 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:31:23.842 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 0E 00 04 00 10 08 31 05 04 64 00 00 00 00 B9 
+2016-12-13 12:31:23.843 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 0E 00 04 00 10 08 31 05 04 64 00 00 00 00 B9 
+2016-12-13 12:31:23.843 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 39 to 40
+2016-12-13 12:31:23.843 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=ApplicationCommandHandler[0x04], type=Request[0x00], priority=High, dest=255, payload=00 10 08 31 05 04 64 00 00 00 00 
+2016-12-13 12:31:23.844 [DEBUG] [ApplicationCommandMessageClass:42   ] - NODE 16: Application Command Request (ALIVE:DYNAMIC_VALUES)
+2016-12-13 12:31:23.844 [DEBUG] [ApplicationCommandMessageClass:151  ] - NODE 16: Incoming command class SENSOR_MULTILEVEL
+2016-12-13 12:31:23.845 [DEBUG] [veMultiLevelSensorCommandClass:97   ] - NODE 16: Received Sensor Multi Level Request
+2016-12-13 12:31:23.845 [DEBUG] [veMultiLevelSensorCommandClass:128  ] - NODE 16: Sensor Multi Level REPORT received
+2016-12-13 12:31:23.845 [DEBUG] [veMultiLevelSensorCommandClass:138  ] - NODE 16: Sensor Type = Power(4), Scale = 0
+2016-12-13 12:31:23.846 [DEBUG] [veMultiLevelSensorCommandClass:147  ] - NODE 16: Sensor Value = 0E+1
+2016-12-13 12:31:23.846 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveMultiLevelSensorValueEvent
+2016-12-13 12:31:23.846 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveMultiLevelSensorValueEvent
+2016-12-13 12:31:23.846 [DEBUG] [.b.z.handler.ZWaveThingHandler:844  ] - NODE 16: Got a value event from Z-Wave network, endpoint = 0, command class = SENSOR_MULTILEVEL, value = 0E+1
+2016-12-13 12:31:23.846 [DEBUG] [.b.z.handler.ZWaveThingHandler:1024 ] - NODE 16: Config updated
+2016-12-13 12:31:23.994 [INFO ] [rthome.event.ThingUpdatedEvent:43   ] - Thing 'zwave:device:1579c2c54b2:node16' has been updated.
+2016-12-13 12:31:23.994 [DEBUG] [.b.z.handler.ZWaveThingHandler:1054 ] - Updating zwave:device:1579c2c54b2:node16:sensor_power to 0
+2016-12-13 12:31:23.995 [INFO ] [s.event.ConfigStatusInfoEvent :43   ] - ConfigStatusInfo [configStatusMessages=[]]
+2016-12-13 12:31:23.996 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 31 04 
+2016-12-13 12:31:23.997 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=ApplicationCommandHandler[0x04], type=Request[0x00], priority=High, dest=255, payload=00 10 08 31 05 04 64 00 00 00 00 
+2016-12-13 12:31:23.997 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:95   ] - Checking transaction complete: class=ApplicationCommandHandler, callback id=14, expected=ApplicationCommandHandler, cancelled=false        transaction complete!
+2016-12-13 12:31:23.997 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveTransactionCompletedEvent
+2016-12-13 12:31:23.997 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:1137 ] - NODE 16: Node advancer - DYNAMIC_VALUES: Transaction complete (SendData:Request) success(true)
+2016-12-13 12:31:23.998 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:200  ] - NODE 16: Node advancer - checking initialisation queue. Queue size 3.
+2016-12-13 12:31:23.998 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:206  ] - NODE 16: Node advancer - message removed from queue. Queue size 2.
+2016-12-13 12:31:23.999 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_device_1579c2c54b2_node16_sensor_power updated to 0
+2016-12-13 12:31:24.000 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_device_1579c2c54b2_node16_sensor_power changed from NULL to 0
+2016-12-13 12:31:23.998 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:269  ] - NODE 16: Node advancer - DYNAMIC_VALUES: queue length(2), free to send(true)
+2016-12-13 12:31:24.001 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:1244 ] - NODE 16: Initialisation retry timer started 20000
+2016-12-13 12:31:24.001 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:236  ] - NODE 16: Node advancer - queued packet. Queue length is 2
+2016-12-13 12:31:24.002 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 3. Queue={}
+2016-12-13 12:31:24.003 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveTransactionCompletedEvent
+2016-12-13 12:31:24.003 [DEBUG] [WaveController$ZWaveSendThread:1228 ] - NODE 16: Response processed after 188ms/189ms.
+2016-12-13 12:31:24.004 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 2
+2016-12-13 12:31:24.004 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 0A 00 13 10 03 32 01 10 25 0F FC 
+2016-12-13 12:31:24.004 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 0A 00 13 10 03 32 01 10 25 0F FC 
+2016-12-13 12:31:24.007 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_ack updated to 28
+2016-12-13 12:31:24.009 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-13 12:31:24.010 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:31:24.010 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_ack changed from 27 to 28
+2016-12-13 12:31:24.010 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-13 12:31:24.010 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-13 12:31:24.011 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-13 12:31:24.011 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 41
+2016-12-13 12:31:24.011 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-13 12:31:24.011 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 40 to 41
+2016-12-13 12:31:24.022 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 42
+2016-12-13 12:31:24.022 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 0F 00 E6 
+2016-12-13 12:31:24.023 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:31:24.023 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 0F 00 00 00 E4 
+2016-12-13 12:31:24.023 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 0F 00 00 00 E4 
+2016-12-13 12:31:24.024 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=0F 00 
+2016-12-13 12:31:24.024 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 41 to 42
+2016-12-13 12:31:24.024 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 15, Status = Transmission complete and ACK received(0)
+2016-12-13 12:31:24.025 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 03 32 01 10 
+2016-12-13 12:31:24.025 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=0F 00 
+2016-12-13 12:31:24.025 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=15, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+2016-12-13 12:31:24.032 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 43
+2016-12-13 12:31:24.032 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 14 00 04 00 10 0E 32 02 21 74 00 00 00 00 07 08 00 00 07 3E A2 
+2016-12-13 12:31:24.033 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:31:24.033 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 14 00 04 00 10 0E 32 02 21 74 00 00 00 00 07 08 00 00 07 3E A2 
+2016-12-13 12:31:24.034 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 14 00 04 00 10 0E 32 02 21 74 00 00 00 00 07 08 00 00 07 3E A2 
+2016-12-13 12:31:24.034 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=ApplicationCommandHandler[0x04], type=Request[0x00], priority=High, dest=255, payload=00 10 0E 32 02 21 74 00 00 00 00 07 08 00 00 07 3E 
+2016-12-13 12:31:24.034 [DEBUG] [ApplicationCommandMessageClass:42   ] - NODE 16: Application Command Request (ALIVE:DYNAMIC_VALUES)
+2016-12-13 12:31:24.034 [DEBUG] [ApplicationCommandMessageClass:151  ] - NODE 16: Incoming command class METER
+2016-12-13 12:31:24.034 [DEBUG] [z.i.p.c.ZWaveMeterCommandClass:110  ] - NODE 16: Received Meter Request
+2016-12-13 12:31:24.034 [DEBUG] [z.i.p.c.ZWaveMeterCommandClass:158  ] - NODE 16: Meter: Type=Electric(1), Scale=W(2), Value=0E+1, Delta=1800
+2016-12-13 12:31:24.033 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 42 to 43
+2016-12-13 12:31:24.034 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveMeterValueEvent
+2016-12-13 12:31:24.035 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveMeterValueEvent
+2016-12-13 12:31:24.035 [DEBUG] [.b.z.handler.ZWaveThingHandler:844  ] - NODE 16: Got a value event from Z-Wave network, endpoint = 0, command class = METER, value = 0E+1
+2016-12-13 12:31:24.035 [DEBUG] [.b.z.handler.ZWaveThingHandler:1024 ] - NODE 16: Config updated
+2016-12-13 12:31:24.196 [INFO ] [rthome.event.ThingUpdatedEvent:43   ] - Thing 'zwave:device:1579c2c54b2:node16' has been updated.
+2016-12-13 12:31:24.198 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:106  ] - Not the right scale E_KWh <> E_W
+2016-12-13 12:31:24.199 [DEBUG] [.b.z.handler.ZWaveThingHandler:1054 ] - Updating zwave:device:1579c2c54b2:node16:meter_watts to 0
+2016-12-13 12:31:24.200 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 03 32 01 10 
+2016-12-13 12:31:24.201 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=ApplicationCommandHandler[0x04], type=Request[0x00], priority=High, dest=255, payload=00 10 0E 32 02 21 74 00 00 00 00 07 08 00 00 07 3E 
+2016-12-13 12:31:24.201 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:95   ] - Checking transaction complete: class=ApplicationCommandHandler, callback id=15, expected=ApplicationCommandHandler, cancelled=false        transaction complete!
+2016-12-13 12:31:24.201 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveTransactionCompletedEvent
+2016-12-13 12:31:24.201 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:1137 ] - NODE 16: Node advancer - DYNAMIC_VALUES: Transaction complete (SendData:Request) success(true)
+2016-12-13 12:31:24.201 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:200  ] - NODE 16: Node advancer - checking initialisation queue. Queue size 2.
+2016-12-13 12:31:24.202 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:206  ] - NODE 16: Node advancer - message removed from queue. Queue size 1.
+2016-12-13 12:31:24.202 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:269  ] - NODE 16: Node advancer - DYNAMIC_VALUES: queue length(1), free to send(true)
+2016-12-13 12:31:24.202 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_device_1579c2c54b2_node16_meter_watts updated to 0
+2016-12-13 12:31:24.202 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:1244 ] - NODE 16: Initialisation retry timer started 20000
+2016-12-13 12:31:24.202 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:236  ] - NODE 16: Node advancer - queued packet. Queue length is 1
+2016-12-13 12:31:24.203 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 3. Queue={}
+2016-12-13 12:31:24.203 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveTransactionCompletedEvent
+2016-12-13 12:31:24.203 [DEBUG] [WaveController$ZWaveSendThread:1228 ] - NODE 16: Response processed after 198ms/198ms.
+2016-12-13 12:31:24.203 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 2
+2016-12-13 12:31:24.204 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 0A 00 13 10 03 32 01 00 25 10 F3 
+2016-12-13 12:31:24.204 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 0A 00 13 10 03 32 01 00 25 10 F3 
+2016-12-13 12:31:24.206 [INFO ] [s.event.ConfigStatusInfoEvent :43   ] - ConfigStatusInfo [configStatusMessages=[]]
+2016-12-13 12:31:24.207 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_ack updated to 29
+2016-12-13 12:31:24.208 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_device_1579c2c54b2_node16_meter_watts changed from NULL to 0
+2016-12-13 12:31:24.208 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_ack changed from 28 to 29
+2016-12-13 12:31:24.209 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-13 12:31:24.209 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 44
+2016-12-13 12:31:24.210 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 43 to 44
+2016-12-13 12:31:24.210 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:31:24.211 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-13 12:31:24.214 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-13 12:31:24.214 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-13 12:31:24.214 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-13 12:31:24.222 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 45
+2016-12-13 12:31:24.223 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 44 to 45
+2016-12-13 12:31:24.222 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 10 00 F9 
+2016-12-13 12:31:24.226 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:31:24.226 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 10 00 00 00 FB 
+2016-12-13 12:31:24.227 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 10 00 00 00 FB 
+2016-12-13 12:31:24.227 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=10 00 
+2016-12-13 12:31:24.227 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 16, Status = Transmission complete and ACK received(0)
+2016-12-13 12:31:24.227 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 03 32 01 00 
+2016-12-13 12:31:24.227 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=10 00 
+2016-12-13 12:31:24.228 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=16, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+2016-12-13 12:31:24.232 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 14 00 04 00 10 0E 32 02 21 64 00 00 07 3F 0A D2 00 00 07 3F 5C 
+2016-12-13 12:31:24.232 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 46
+2016-12-13 12:31:24.233 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 45 to 46
+2016-12-13 12:31:24.233 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:31:24.233 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 14 00 04 00 10 0E 32 02 21 64 00 00 07 3F 0A D2 00 00 07 3F 5C 
+2016-12-13 12:31:24.234 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 14 00 04 00 10 0E 32 02 21 64 00 00 07 3F 0A D2 00 00 07 3F 5C 
+2016-12-13 12:31:24.234 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=ApplicationCommandHandler[0x04], type=Request[0x00], priority=High, dest=255, payload=00 10 0E 32 02 21 64 00 00 07 3F 0A D2 00 00 07 3F 
+2016-12-13 12:31:24.235 [DEBUG] [ApplicationCommandMessageClass:42   ] - NODE 16: Application Command Request (ALIVE:DYNAMIC_VALUES)
+2016-12-13 12:31:24.235 [DEBUG] [ApplicationCommandMessageClass:151  ] - NODE 16: Incoming command class METER
+2016-12-13 12:31:24.235 [DEBUG] [z.i.p.c.ZWaveMeterCommandClass:110  ] - NODE 16: Received Meter Request
+2016-12-13 12:31:24.235 [DEBUG] [z.i.p.c.ZWaveMeterCommandClass:158  ] - NODE 16: Meter: Type=Electric(1), Scale=kWh(0), Value=1.855, Delta=2770
+2016-12-13 12:31:24.235 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveMeterValueEvent
+2016-12-13 12:31:24.235 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveMeterValueEvent
+2016-12-13 12:31:24.236 [DEBUG] [.b.z.handler.ZWaveThingHandler:844  ] - NODE 16: Got a value event from Z-Wave network, endpoint = 0, command class = METER, value = 1.855
+2016-12-13 12:31:24.236 [DEBUG] [.b.z.handler.ZWaveThingHandler:1024 ] - NODE 16: Config updated
+2016-12-13 12:31:24.406 [DEBUG] [.b.z.handler.ZWaveThingHandler:1054 ] - Updating zwave:device:1579c2c54b2:node16:meter_kwh to 1.855
+2016-12-13 12:31:24.406 [INFO ] [rthome.event.ThingUpdatedEvent:43   ] - Thing 'zwave:device:1579c2c54b2:node16' has been updated.
+2016-12-13 12:31:24.407 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:106  ] - Not the right scale E_W <> E_KWh
+2016-12-13 12:31:24.407 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 03 32 01 00 
+2016-12-13 12:31:24.407 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=ApplicationCommandHandler[0x04], type=Request[0x00], priority=High, dest=255, payload=00 10 0E 32 02 21 64 00 00 07 3F 0A D2 00 00 07 3F 
+2016-12-13 12:31:24.407 [INFO ] [s.event.ConfigStatusInfoEvent :43   ] - ConfigStatusInfo [configStatusMessages=[]]
+2016-12-13 12:31:24.408 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:95   ] - Checking transaction complete: class=ApplicationCommandHandler, callback id=16, expected=ApplicationCommandHandler, cancelled=false        transaction complete!
+2016-12-13 12:31:24.408 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveTransactionCompletedEvent
+2016-12-13 12:31:24.408 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_device_1579c2c54b2_node16_meter_kwh updated to 1.855
+2016-12-13 12:31:24.408 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:1137 ] - NODE 16: Node advancer - DYNAMIC_VALUES: Transaction complete (SendData:Request) success(true)
+2016-12-13 12:31:24.408 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:200  ] - NODE 16: Node advancer - checking initialisation queue. Queue size 1.
+2016-12-13 12:31:24.409 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:206  ] - NODE 16: Node advancer - message removed from queue. Queue size 0.
+2016-12-13 12:31:24.409 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:269  ] - NODE 16: Node advancer - DYNAMIC_VALUES: queue length(0), free to send(true)
+2016-12-13 12:31:24.409 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_device_1579c2c54b2_node16_meter_kwh changed from NULL to 1.855
+2016-12-13 12:31:24.409 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:1244 ] - NODE 16: Initialisation retry timer started 20000
+2016-12-13 12:31:24.409 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:327  ] - NODE 16: Node advancer: loop - DYNAMIC_VALUES try 3: stageAdvanced(false)
+2016-12-13 12:31:24.410 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:902  ] - NODE 16: Node advancer: DYNAMIC_VALUES - checking MANUFACTURER_SPECIFIC
+2016-12-13 12:31:24.410 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:902  ] - NODE 16: Node advancer: DYNAMIC_VALUES - checking SWITCH_ALL
+2016-12-13 12:31:24.410 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:902  ] - NODE 16: Node advancer: DYNAMIC_VALUES - checking VERSION
+2016-12-13 12:31:24.410 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:902  ] - NODE 16: Node advancer: DYNAMIC_VALUES - checking NO_OPERATION
+2016-12-13 12:31:24.410 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:902  ] - NODE 16: Node advancer: DYNAMIC_VALUES - checking ASSOCIATION
+2016-12-13 12:31:24.411 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:902  ] - NODE 16: Node advancer: DYNAMIC_VALUES - checking SWITCH_BINARY
+2016-12-13 12:31:24.411 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:905  ] - NODE 16: Node advancer: DYNAMIC_VALUES - found    SWITCH_BINARY
+2016-12-13 12:31:24.411 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:909  ] - NODE 16: Found 1 instances of SWITCH_BINARY
+2016-12-13 12:31:24.411 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:902  ] - NODE 16: Node advancer: DYNAMIC_VALUES - checking SENSOR_MULTILEVEL
+2016-12-13 12:31:24.411 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:905  ] - NODE 16: Node advancer: DYNAMIC_VALUES - found    SENSOR_MULTILEVEL
+2016-12-13 12:31:24.411 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:909  ] - NODE 16: Found 1 instances of SENSOR_MULTILEVEL
+2016-12-13 12:31:24.412 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:902  ] - NODE 16: Node advancer: DYNAMIC_VALUES - checking METER
+2016-12-13 12:31:24.412 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:905  ] - NODE 16: Node advancer: DYNAMIC_VALUES - found    METER
+2016-12-13 12:31:24.412 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:909  ] - NODE 16: Found 1 instances of METER
+2016-12-13 12:31:24.412 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:902  ] - NODE 16: Node advancer: DYNAMIC_VALUES - checking BASIC
+2016-12-13 12:31:24.412 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:902  ] - NODE 16: Node advancer: DYNAMIC_VALUES - checking CONFIGURATION
+2016-12-13 12:31:24.413 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:936  ] - NODE 16: Node advancer: DYNAMIC_VALUES - queued 0 frames
+2016-12-13 12:31:24.413 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:989  ] - NODE 16: Node advancer - advancing to DONE
+2016-12-13 12:31:24.413 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveInitializationStateEvent
+2016-12-13 12:31:24.413 [DEBUG] [z.internal.ZWaveNetworkMonitor:737  ] - NODE 16: Network initialised - starting network monitor.
+2016-12-13 12:31:24.413 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveInitializationStateEvent
+2016-12-13 12:31:24.414 [DEBUG] [.b.z.handler.ZWaveThingHandler:1148 ] - NODE 16: Setting ONLINE
+2016-12-13 12:31:24.414 [INFO ] [ome.event.ThingStatusInfoEvent:43   ] - 'zwave:device:1579c2c54b2:node16' updated: ONLINE
+2016-12-13 12:31:24.415 [INFO ] [nt.ThingStatusInfoChangedEvent:43   ] - 'zwave:device:1579c2c54b2:node16' changed from ONLINE: DYNAMIC_VALUES to ONLINE
+2016-12-13 12:31:24.414 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:327  ] - NODE 16: Node advancer: loop - DONE try 0: stageAdvanced(true)
+2016-12-13 12:31:24.415 [DEBUG] [.b.z.i.p.i.ZWaveNodeSerializer:103  ] - NODE 16: Serializing to file userdata/zwave/node16.xml
+2016-12-13 12:31:24.422 [DEBUG] [z.i.p.i.ZWaveNodeStageAdvancer:949  ] - NODE 16: Node advancer: Initialisation complete!
+2016-12-13 12:31:24.422 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveInitializationStateEvent
+2016-12-13 12:31:24.422 [DEBUG] [z.internal.ZWaveNetworkMonitor:737  ] - NODE 16: Network initialised - starting network monitor.
+2016-12-13 12:31:24.423 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveInitializationStateEvent
+2016-12-13 12:31:24.423 [DEBUG] [.b.z.handler.ZWaveThingHandler:1148 ] - NODE 16: Setting ONLINE
+2016-12-13 12:31:24.423 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveTransactionCompletedEvent
+2016-12-13 12:31:24.423 [INFO ] [ome.event.ThingStatusInfoEvent:43   ] - 'zwave:device:1579c2c54b2:node16' updated: ONLINE
+2016-12-13 12:31:24.423 [DEBUG] [WaveController$ZWaveSendThread:1228 ] - NODE 16: Response processed after 219ms/219ms.
+2016-12-13 12:31:24.423 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 1
+2016-12-13 12:31:24.424 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 08 00 13 10 01 00 25 04 D4 
+2016-12-13 12:31:24.424 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 08 00 13 10 01 00 25 04 D4 
+2016-12-13 12:31:24.426 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_ack updated to 30
+2016-12-13 12:31:24.427 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_ack changed from 29 to 30
+2016-12-13 12:31:24.429 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 47
+2016-12-13 12:31:24.429 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-13 12:31:24.430 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:31:24.430 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-13 12:31:24.430 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-13 12:31:24.430 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-13 12:31:24.430 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 46 to 47
+2016-12-13 12:31:24.431 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-13 12:31:24.440 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 48
+2016-12-13 12:31:24.440 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 04 00 ED 
+2016-12-13 12:31:24.441 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:31:24.441 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 04 00 00 00 EF 
+2016-12-13 12:31:24.442 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 47 to 48
+2016-12-13 12:31:24.442 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 04 00 00 00 EF 
+2016-12-13 12:31:24.442 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=04 00 
+2016-12-13 12:31:24.442 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 4, Status = Transmission complete and ACK received(0)
+2016-12-13 12:31:24.443 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Poll, dest=16, payload=10 01 00 
+2016-12-13 12:31:24.443 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=04 00 
+2016-12-13 12:31:24.443 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:95   ] - Checking transaction complete: class=SendData, callback id=4, expected=SendData, cancelled=false        transaction complete!
+2016-12-13 12:31:24.443 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveTransactionCompletedEvent
+2016-12-13 12:31:24.443 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveTransactionCompletedEvent
+2016-12-13 12:31:24.443 [DEBUG] [WaveController$ZWaveSendThread:1228 ] - NODE 16: Response processed after 18ms/219ms.
+2016-12-13 12:31:24.443 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 0
+2016-12-13 12:31:24.444 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 08 00 13 10 01 00 25 05 D5 
+2016-12-13 12:31:24.444 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 08 00 13 10 01 00 25 05 D5 
+2016-12-13 12:31:24.445 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_ack updated to 31
+2016-12-13 12:31:24.447 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_ack changed from 30 to 31
+2016-12-13 12:31:24.448 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-13 12:31:24.449 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 49
+2016-12-13 12:31:24.449 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:31:24.449 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-13 12:31:24.450 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-13 12:31:24.450 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-13 12:31:24.450 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-13 12:31:24.451 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 48 to 49
+2016-12-13 12:31:24.460 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 05 00 EC 
+2016-12-13 12:31:24.460 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 50
+2016-12-13 12:31:24.460 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:31:24.461 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 49 to 50
+2016-12-13 12:31:24.461 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 05 00 00 00 EE 
+2016-12-13 12:31:24.461 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 05 00 00 00 EE 
+2016-12-13 12:31:24.461 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=05 00 
+2016-12-13 12:31:24.461 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 5, Status = Transmission complete and ACK received(0)
+2016-12-13 12:31:24.462 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Poll, dest=16, payload=10 01 00 
+2016-12-13 12:31:24.462 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=05 00 
+2016-12-13 12:31:24.462 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:95   ] - Checking transaction complete: class=SendData, callback id=5, expected=SendData, cancelled=false        transaction complete!
+2016-12-13 12:31:24.462 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveTransactionCompletedEvent
+2016-12-13 12:31:24.462 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveTransactionCompletedEvent
+2016-12-13 12:31:24.462 [DEBUG] [WaveController$ZWaveSendThread:1228 ] - NODE 16: Response processed after 18ms/219ms.
+2016-12-13 12:32:41.393 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'gFF' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-13 12:32:41.393 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-13 12:32:41.393 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-13 12:32:41.394 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-13 12:32:41.394 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'gFF' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-13 12:32:41.394 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'gFF' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-13 12:32:41.395 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'gGF' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-13 12:32:41.395 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-13 12:32:41.395 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-13 12:32:41.395 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-13 12:32:41.395 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'gGF' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-13 12:32:41.396 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'gGF' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-13 12:32:41.396 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'gC' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-13 12:32:41.396 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-13 12:32:41.396 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-13 12:32:41.397 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-13 12:32:41.397 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'gC' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-13 12:32:41.397 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'gC' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-13 12:32:41.397 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'Garden' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-13 12:32:41.398 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-13 12:32:41.398 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-13 12:32:41.398 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-13 12:32:41.399 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'Garden' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-13 12:32:41.399 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'Garden' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-13 12:32:41.400 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'Weather_Temperature' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-12-13 12:32:41.400 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Text
+2016-12-13 12:32:41.400 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Text
+2016-12-13 12:32:41.401 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'Weather_Temperature' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-12-13 12:32:41.401 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'Weather_Temperature' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-12-13 12:32:41.402 [WARN ] [s.u.i.items.ItemUIRegistryImpl:881  ] - Cannot retrieve color item Weather_LastUpdate for widget
+2016-12-13 12:32:41.402 [WARN ] [s.u.i.items.ItemUIRegistryImpl:881  ] - Cannot retrieve color item Weather_LastUpdate for widget
+2016-12-13 12:32:41.404 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'CurrentDate' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-12-13 12:32:41.404 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Text
+2016-12-13 12:32:41.405 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Text
+2016-12-13 12:32:41.405 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'CurrentDate' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-12-13 12:32:41.406 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'CurrentDate' for widget org.eclipse.smarthome.model.sitemap.Text
+
+-----
+
+2016-12-13 12:32:52.016 [ERROR] [io.rest.core.item.ItemResource:283  ] - Received HTTP POST request at 'items/zwave_device_1579c2c54b2_switch_binary' with value 'ON'.
+2016-12-13 12:32:52.017 [INFO ] [arthome.event.ItemCommandEvent:43   ] - Item 'zwave_device_1579c2c54b2_switch_binary' received command ON
+2016-12-13 12:32:52.018 [DEBUG] [.b.z.handler.ZWaveThingHandler:769  ] - NODE 16: Command received zwave:device:1579c2c54b2:node16:switch_binary --> ON
+2016-12-13 12:32:52.019 [DEBUG] [.ZWaveBinarySwitchCommandClass:144  ] - NODE 16: Creating new message for application command SWITCH_BINARY_SET
+2016-12-13 12:32:52.019 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 1. Queue={}
+2016-12-13 12:32:52.019 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 0
+2016-12-13 12:32:52.020 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 0A 00 13 10 03 25 01 FF 25 11 1A 
+2016-12-13 12:32:52.020 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 0A 00 13 10 03 25 01 FF 25 11 1A 
+2016-12-13 12:32:52.020 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_device_1579c2c54b2_switch_binary updated to ON
+2016-12-13 12:32:52.021 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_device_1579c2c54b2_switch_binary changed from OFF to ON
+2016-12-13 12:32:52.022 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_ack updated to 32
+2016-12-13 12:32:52.023 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_ack changed from 31 to 32
+2016-12-13 12:32:52.025 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-13 12:32:52.026 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 51
+2016-12-13 12:32:52.026 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:32:52.026 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-13 12:32:52.026 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-13 12:32:52.026 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-13 12:32:52.027 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 50 to 51
+2016-12-13 12:32:52.027 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-13 12:32:52.037 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof updated to 52
+2016-12-13 12:32:52.037 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 11 00 F8 
+2016-12-13 12:32:52.039 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_serial_zstick_1579c2c54b2_serial_sof changed from 51 to 52
+2016-12-13 12:32:52.041 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-13 12:32:52.041 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 11 00 00 00 FA 
+2016-12-13 12:32:52.042 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 11 00 00 00 FA 
+2016-12-13 12:32:52.042 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=11 00 
+2016-12-13 12:32:52.042 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 17, Status = Transmission complete and ACK received(0)
+2016-12-13 12:32:52.043 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Set, dest=16, payload=10 03 25 01 FF 
+2016-12-13 12:32:52.043 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=11 00 
+2016-12-13 12:32:52.043 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:95   ] - Checking transaction complete: class=SendData, callback id=17, expected=SendData, cancelled=false        transaction complete!
+2016-12-13 12:32:52.043 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveTransactionCompletedEvent
+2016-12-13 12:32:52.043 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveTransactionCompletedEvent
+2016-12-13 12:32:52.043 [DEBUG] [WaveController$ZWaveSendThread:1228 ] - NODE 16: Response processed after 23ms/219ms.
+
