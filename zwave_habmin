@@ -1,0 +1,618 @@
+1299465 |  2003415 | 2015-09-06 05:35:34.59662+02
+
+2016-12-21 11:43:53.759 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 255: Sending REQUEST Message = 01 04 00 4A 05 B4 
+2016-12-21 11:43:53.811 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 07 00 4A 02 06 00 00 B6 
+2016-12-21 11:43:53.811 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:43:53.812 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 4A 02 06 00 00 B6 
+2016-12-21 11:43:53.812 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 4A 02 06 00 00 B6 
+2016-12-21 11:43:53.812 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=AddNodeToNetwork[0x4A], type=Request[0x00], priority=High, dest=255, payload=02 06 00 00 
+2016-12-21 11:43:53.812 [DEBUG] [.b.z.i.p.s.AddNodeMessageClass:98   ] - Add Node: Done.
+2016-12-21 11:43:53.812 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=AddNodeToNetwork[0x4A], type=Request[0x00], priority=High, dest=255, payload=05 
+2016-12-21 11:43:53.812 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=AddNodeToNetwork[0x4A], type=Request[0x00], priority=High, dest=255, payload=02 06 00 00 
+2016-12-21 11:43:53.812 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:95   ] - Checking transaction complete: class=AddNodeToNetwork, callback id=0, expected=AddNodeToNetwork, cancelled=false        transaction complete!
+2016-12-21 11:43:53.813 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveTransactionCompletedEvent
+2016-12-21 11:43:53.813 [DEBUG] [WaveController$ZWaveSendThread:1228 ] - NODE 255: Response processed after 53ms/588ms.
+2016-12-21 11:43:53.813 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 5
+2016-12-21 11:43:53.813 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 05 00 4A 81 FF CE 
+2016-12-21 11:43:53.813 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 255: Sending REQUEST Message = 01 05 00 4A 81 FF CE 
+2016-12-21 11:43:53.817 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 07 00 4A FF 01 00 00 4C 
+2016-12-21 11:43:53.817 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:43:53.818 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 4A FF 01 00 00 4C 
+2016-12-21 11:43:53.818 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 4A FF 01 00 00 4C 
+2016-12-21 11:43:53.818 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=AddNodeToNetwork[0x4A], type=Request[0x00], priority=High, dest=255, payload=FF 01 00 00 
+2016-12-21 11:43:53.818 [DEBUG] [.b.z.i.p.s.AddNodeMessageClass:78   ] - Add Node: Learn ready.
+2016-12-21 11:43:53.818 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveInclusionEvent
+2016-12-21 11:43:53.818 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=AddNodeToNetwork[0x4A], type=Request[0x00], priority=High, dest=255, payload=81 FF 
+2016-12-21 11:43:53.818 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=AddNodeToNetwork[0x4A], type=Request[0x00], priority=High, dest=255, payload=FF 01 00 00 
+2016-12-21 11:43:53.819 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:95   ] - Checking transaction complete: class=AddNodeToNetwork, callback id=0, expected=AddNodeToNetwork, cancelled=false        transaction complete!
+2016-12-21 11:43:53.819 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveTransactionCompletedEvent
+2016-12-21 11:43:53.819 [DEBUG] [WaveController$ZWaveSendThread:1228 ] - NODE 255: Response processed after 5ms/588ms.
+2016-12-21 11:43:53.819 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 4
+2016-12-21 11:43:53.819 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 13 10 02 25 02 25 8F 7A 
+2016-12-21 11:43:53.820 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 09 00 13 10 02 25 02 25 8F 7A 
+2016-12-21 11:43:53.824 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-21 11:43:53.825 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:43:53.825 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-21 11:43:53.825 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-21 11:43:53.825 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-21 11:43:53.825 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-21 11:43:53.837 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 8F 00 66 
+2016-12-21 11:43:53.837 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:43:53.838 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 8F 00 00 00 64 
+2016-12-21 11:43:53.838 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 8F 00 00 00 64 
+2016-12-21 11:43:53.838 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=8F 00 
+2016-12-21 11:43:53.838 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 143, Status = Transmission complete and ACK received(0)
+2016-12-21 11:43:53.838 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 25 02 
+2016-12-21 11:43:53.838 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=8F 00 
+2016-12-21 11:43:53.838 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=143, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+2016-12-21 11:43:56.621 [INFO ] [rthome.event.InboxRemovedEvent:43   ] - Discovery Result with UID 'zwave:device:1579c2c54b2:node16' has been removed.
+2016-12-21 11:43:56.622 [INFO ] [marthome.event.ThingAddedEvent:43   ] - Thing 'zwave:device:1579c2c54b2:node16' has been added.
+2016-12-21 11:43:56.622 [DEBUG] [.b.z.handler.ZWaveThingHandler:109  ] - Initializing ZWave thing handler.
+2016-12-21 11:43:56.624 [INFO ] [ome.event.ThingStatusInfoEvent:43   ] - 'zwave:device:1579c2c54b2:node16' updated: INITIALIZING
+2016-12-21 11:43:56.640 [INFO ] [nt.ThingStatusInfoChangedEvent:43   ] - 'zwave:device:1579c2c54b2:node16' changed from UNINITIALIZED to INITIALIZING
+2016-12-21 11:43:56.642 [ERROR] [.b.z.handler.ZWaveThingHandler:153  ] - NODE 16: pollingPeriod (null) cannot be parsed - using default
+2016-12-21 11:43:56.642 [DEBUG] [.b.z.handler.ZWaveThingHandler:396  ] - NODE 16: Controller initialised. Starting device intialisation.
+2016-12-21 11:43:56.643 [INFO ] [ome.event.ThingStatusInfoEvent:43   ] - 'zwave:device:1579c2c54b2:node16' updated: ONLINE
+2016-12-21 11:43:56.643 [DEBUG] [.b.z.handler.ZWaveThingHandler:396  ] - NODE 16: Controller initialised. Starting device intialisation.
+2016-12-21 11:43:56.643 [DEBUG] [.b.z.handler.ZWaveThingHandler:386  ] - NODE 16: Polling intialised at 1800 seconds - start in 1800000 milliseconds.
+2016-12-21 11:43:56.643 [INFO ] [nt.ThingStatusInfoChangedEvent:43   ] - 'zwave:device:1579c2c54b2:node16' changed from INITIALIZING to ONLINE
+2016-12-21 11:43:56.644 [INFO ] [ome.event.ThingStatusInfoEvent:43   ] - 'zwave:device:1579c2c54b2:node16' updated: ONLINE
+2016-12-21 11:43:56.743 [INFO ] [ome.event.ThingStatusInfoEvent:43   ] - 'zwave:device:1579c2c54b2:node16' updated: UNINITIALIZED (HANDLER_MISSING_ERROR)
+2016-12-21 11:43:56.742 [DEBUG] [.b.z.handler.ZWaveThingHandler:432  ] - Handler disposed. Unregistering listener.
+2016-12-21 11:43:56.743 [DEBUG] [.b.z.handler.ZWaveThingHandler:441  ] - dispose
+2016-12-21 11:43:56.743 [INFO ] [nt.ThingStatusInfoChangedEvent:43   ] - 'zwave:device:1579c2c54b2:node16' changed from ONLINE to UNINITIALIZED (HANDLER_MISSING_ERROR)
+2016-12-21 11:43:56.902 [INFO ] [ome.event.ThingStatusInfoEvent:43   ] - 'zwave:device:1579c2c54b2:node16' updated: INITIALIZING
+2016-12-21 11:43:56.904 [DEBUG] [.b.z.handler.ZWaveThingHandler:109  ] - Initializing ZWave thing handler.
+2016-12-21 11:43:56.906 [ERROR] [.b.z.handler.ZWaveThingHandler:153  ] - NODE 16: pollingPeriod (null) cannot be parsed - using default
+2016-12-21 11:43:56.907 [DEBUG] [.b.z.handler.ZWaveThingHandler:164  ] - NODE 16: Initialising channel zwave:device:1579c2c54b2:node16:meter_kwh
+2016-12-21 11:43:56.908 [DEBUG] [.b.z.handler.ZWaveThingHandler:224  ] - NODE 16: Initialising cmd channel zwave:device:1579c2c54b2:node16:meter_kwh
+2016-12-21 11:43:56.909 [DEBUG] [.b.z.handler.ZWaveThingHandler:230  ] - NODE 16: Initialising poll channel zwave:device:1579c2c54b2:node16:meter_kwh
+2016-12-21 11:43:56.910 [INFO ] [nt.ThingStatusInfoChangedEvent:43   ] - 'zwave:device:1579c2c54b2:node16' changed from UNINITIALIZED (HANDLER_MISSING_ERROR) to INITIALIZING
+2016-12-21 11:43:56.910 [DEBUG] [.b.z.handler.ZWaveThingHandler:235  ] - NODE 16: Initialising state channel zwave:device:1579c2c54b2:node16:meter_kwh
+2016-12-21 11:43:56.911 [DEBUG] [.b.z.handler.ZWaveThingHandler:164  ] - NODE 16: Initialising channel zwave:device:1579c2c54b2:node16:meter_watts
+2016-12-21 11:43:56.913 [DEBUG] [.b.z.handler.ZWaveThingHandler:224  ] - NODE 16: Initialising cmd channel zwave:device:1579c2c54b2:node16:meter_watts
+2016-12-21 11:43:56.919 [DEBUG] [.b.z.handler.ZWaveThingHandler:230  ] - NODE 16: Initialising poll channel zwave:device:1579c2c54b2:node16:meter_watts
+2016-12-21 11:43:56.920 [DEBUG] [.b.z.handler.ZWaveThingHandler:235  ] - NODE 16: Initialising state channel zwave:device:1579c2c54b2:node16:meter_watts
+2016-12-21 11:43:56.921 [DEBUG] [.b.z.handler.ZWaveThingHandler:164  ] - NODE 16: Initialising channel zwave:device:1579c2c54b2:node16:sensor_power
+2016-12-21 11:43:56.921 [DEBUG] [.b.z.handler.ZWaveThingHandler:224  ] - NODE 16: Initialising cmd channel zwave:device:1579c2c54b2:node16:sensor_power
+2016-12-21 11:43:56.921 [DEBUG] [.b.z.handler.ZWaveThingHandler:230  ] - NODE 16: Initialising poll channel zwave:device:1579c2c54b2:node16:sensor_power
+2016-12-21 11:43:56.921 [DEBUG] [.b.z.handler.ZWaveThingHandler:235  ] - NODE 16: Initialising state channel zwave:device:1579c2c54b2:node16:sensor_power
+2016-12-21 11:43:56.921 [DEBUG] [.b.z.handler.ZWaveThingHandler:164  ] - NODE 16: Initialising channel zwave:device:1579c2c54b2:node16:switch_binary
+2016-12-21 11:43:56.921 [DEBUG] [.b.z.handler.ZWaveThingHandler:224  ] - NODE 16: Initialising cmd channel zwave:device:1579c2c54b2:node16:switch_binary
+2016-12-21 11:43:56.922 [DEBUG] [.b.z.handler.ZWaveThingHandler:230  ] - NODE 16: Initialising poll channel zwave:device:1579c2c54b2:node16:switch_binary
+2016-12-21 11:43:56.922 [DEBUG] [.b.z.handler.ZWaveThingHandler:235  ] - NODE 16: Initialising state channel zwave:device:1579c2c54b2:node16:switch_binary
+2016-12-21 11:43:56.923 [DEBUG] [.b.z.handler.ZWaveThingHandler:396  ] - NODE 16: Controller initialised. Starting device intialisation.
+2016-12-21 11:43:56.924 [DEBUG] [.b.z.handler.ZWaveThingHandler:396  ] - NODE 16: Controller initialised. Starting device intialisation.
+2016-12-21 11:43:56.924 [DEBUG] [.b.z.handler.ZWaveThingHandler:386  ] - NODE 16: Polling intialised at 1800 seconds - start in 1800000 milliseconds.
+2016-12-21 11:43:56.924 [INFO ] [rthome.event.ThingUpdatedEvent:43   ] - Thing 'zwave:device:1579c2c54b2:node16' has been updated.
+2016-12-21 11:43:56.925 [INFO ] [ome.event.ThingStatusInfoEvent:43   ] - 'zwave:device:1579c2c54b2:node16' updated: ONLINE
+2016-12-21 11:43:56.926 [INFO ] [nt.ThingStatusInfoChangedEvent:43   ] - 'zwave:device:1579c2c54b2:node16' changed from INITIALIZING to ONLINE
+2016-12-21 11:43:56.926 [DEBUG] [.b.z.handler.ZWaveThingHandler:769  ] - NODE 16: Command received zwave:device:1579c2c54b2:node16:switch_binary --> REFRESH
+2016-12-21 11:43:56.926 [DEBUG] [.b.z.handler.ZWaveThingHandler:332  ] - startPolling
+2016-12-21 11:43:56.926 [DEBUG] [.b.z.handler.ZWaveThingHandler:386  ] - NODE 16: Polling intialised at 1800 seconds - start in 50 milliseconds.
+2016-12-21 11:43:56.927 [INFO ] [ome.event.ThingStatusInfoEvent:43   ] - 'zwave:device:1579c2c54b2:node16' updated: ONLINE
+2016-12-21 11:43:56.977 [DEBUG] [.b.z.handler.ZWaveThingHandler:351  ] - NODE 16: Polling...
+2016-12-21 11:43:56.978 [DEBUG] [.b.z.handler.ZWaveThingHandler:364  ] - NODE 16: Polling zwave:device:1579c2c54b2:node16:meter_kwh
+2016-12-21 11:43:56.979 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:63   ] - NODE 16: Generating poll message for METER, endpoint 0
+2016-12-21 11:43:56.979 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:73   ] - NODE 16: Generating poll message for METER, endpoint 0
+2016-12-21 11:43:56.980 [DEBUG] [z.i.p.c.ZWaveMeterCommandClass:231  ] - NODE 16: Creating new message for application command METER_GET
+2016-12-21 11:43:56.982 [DEBUG] [.b.z.handler.ZWaveThingHandler:364  ] - NODE 16: Polling zwave:device:1579c2c54b2:node16:meter_watts
+2016-12-21 11:43:56.982 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:63   ] - NODE 16: Generating poll message for METER, endpoint 0
+2016-12-21 11:43:56.983 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:73   ] - NODE 16: Generating poll message for METER, endpoint 0
+2016-12-21 11:43:56.983 [DEBUG] [z.i.p.c.ZWaveMeterCommandClass:231  ] - NODE 16: Creating new message for application command METER_GET
+2016-12-21 11:43:56.983 [DEBUG] [.b.z.handler.ZWaveThingHandler:364  ] - NODE 16: Polling zwave:device:1579c2c54b2:node16:sensor_power
+2016-12-21 11:43:56.984 [DEBUG] [ZWaveMultiLevelSensorConverter:58   ] - NODE 16: Generating poll message for SENSOR_MULTILEVEL, endpoint 0
+2016-12-21 11:43:56.984 [DEBUG] [veMultiLevelSensorCommandClass:202  ] - NODE 16: Creating new message for command SENSOR_MULTI_LEVEL_GET
+2016-12-21 11:43:56.984 [DEBUG] [.b.z.handler.ZWaveThingHandler:364  ] - NODE 16: Polling zwave:device:1579c2c54b2:node16:switch_binary
+2016-12-21 11:43:56.984 [DEBUG] [i.c.ZWaveBinarySwitchConverter:57   ] - NODE 16: Generating poll message for SWITCH_BINARY, endpoint 0
+2016-12-21 11:43:56.984 [DEBUG] [.ZWaveBinarySwitchCommandClass:126  ] - NODE 16: Creating new message for application command SWITCH_BINARY_GET
+2016-12-21 11:43:56.984 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 5. Queue={}
+2016-12-21 11:43:56.984 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 6. Queue={}
+2016-12-21 11:43:56.984 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 7. Queue={}
+2016-12-21 11:43:56.985 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 8. Queue={}
+2016-12-21 11:43:58.820 [ERROR] [WaveController$ZWaveSendThread:1211 ] - NODE 16: Timeout while sending message. Requeueing - 2 attempts left!
+2016-12-21 11:43:58.820 [ERROR] [b.z.i.p.s.SendDataMessageClass:162  ] - NODE 16: Got an error while sending data. Resending message.
+2016-12-21 11:43:58.821 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 9. Queue={}
+2016-12-21 11:43:58.821 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 8
+2016-12-21 11:43:58.821 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 13 10 02 25 02 25 A5 50 
+2016-12-21 11:43:58.821 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 09 00 13 10 02 25 02 25 A5 50 
+2016-12-21 11:43:58.826 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-21 11:43:58.827 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:43:58.827 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-21 11:43:58.827 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-21 11:43:58.827 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-21 11:43:58.827 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-21 11:43:58.838 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 A5 00 4C 
+2016-12-21 11:43:58.839 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:43:58.839 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 A5 00 00 00 4E 
+2016-12-21 11:43:58.839 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 A5 00 00 00 4E 
+2016-12-21 11:43:58.839 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=A5 00 
+2016-12-21 11:43:58.840 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 165, Status = Transmission complete and ACK received(0)
+2016-12-21 11:43:58.840 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 25 02 
+2016-12-21 11:43:58.840 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=A5 00 
+2016-12-21 11:43:58.840 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=165, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+2016-12-21 11:43:59.806 [DEBUG] [.b.z.handler.ZWaveThingHandler:769  ] - NODE 16: Command received zwave:device:1579c2c54b2:node16:switch_binary --> OFF
+2016-12-21 11:43:59.807 [DEBUG] [.ZWaveBinarySwitchCommandClass:144  ] - NODE 16: Creating new message for application command SWITCH_BINARY_SET
+2016-12-21 11:43:59.807 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 9. Queue={}
+2016-12-21 11:43:59.808 [INFO ] [arthome.event.ItemCommandEvent:43   ] - Item 'zwave_device_1579c2c54b2_switch_binary' received command OFF
+2016-12-21 11:43:59.809 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_device_1579c2c54b2_switch_binary updated to OFF
+2016-12-21 11:43:59.810 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_device_1579c2c54b2_switch_binary changed from ON to OFF
+2016-12-21 11:44:03.822 [ERROR] [WaveController$ZWaveSendThread:1211 ] - NODE 16: Timeout while sending message. Requeueing - 1 attempts left!
+2016-12-21 11:44:03.822 [ERROR] [b.z.i.p.s.SendDataMessageClass:162  ] - NODE 16: Got an error while sending data. Resending message.
+2016-12-21 11:44:03.822 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 10. Queue={}
+2016-12-21 11:44:03.823 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 9
+2016-12-21 11:44:03.823 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 0A 00 13 10 03 25 01 00 25 A6 52 
+2016-12-21 11:44:03.823 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 0A 00 13 10 03 25 01 00 25 A6 52 
+2016-12-21 11:44:03.827 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:03.828 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:03.828 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-21 11:44:03.828 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:03.828 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-21 11:44:03.828 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-21 11:44:03.849 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 A6 00 4F 
+2016-12-21 11:44:03.849 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:03.850 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 A6 00 00 00 4D 
+2016-12-21 11:44:03.850 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 A6 00 00 00 4D 
+2016-12-21 11:44:03.850 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=A6 00 
+2016-12-21 11:44:03.850 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 166, Status = Transmission complete and ACK received(0)
+2016-12-21 11:44:03.850 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Set, dest=16, payload=10 03 25 01 00 
+2016-12-21 11:44:03.851 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=A6 00 
+2016-12-21 11:44:03.851 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:95   ] - Checking transaction complete: class=SendData, callback id=166, expected=SendData, cancelled=false        transaction complete!
+2016-12-21 11:44:03.851 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveTransactionCompletedEvent
+2016-12-21 11:44:03.851 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveTransactionCompletedEvent
+2016-12-21 11:44:03.852 [DEBUG] [WaveController$ZWaveSendThread:1228 ] - NODE 16: Response processed after 28ms/588ms.
+2016-12-21 11:44:03.852 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 8
+2016-12-21 11:44:03.852 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 13 10 02 25 02 25 A7 52 
+2016-12-21 11:44:03.852 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 09 00 13 10 02 25 02 25 A7 52 
+2016-12-21 11:44:03.857 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:03.858 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:03.858 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-21 11:44:03.858 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:03.859 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-21 11:44:03.859 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-21 11:44:03.869 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 A7 00 4E 
+2016-12-21 11:44:03.870 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:03.870 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 A7 00 00 00 4C 
+2016-12-21 11:44:03.870 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 A7 00 00 00 4C 
+2016-12-21 11:44:03.870 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=A7 00 
+2016-12-21 11:44:03.870 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 167, Status = Transmission complete and ACK received(0)
+2016-12-21 11:44:03.871 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 25 02 
+2016-12-21 11:44:03.871 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=A7 00 
+2016-12-21 11:44:03.871 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=167, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+2016-12-21 11:44:07.535 [DEBUG] [.b.z.handler.ZWaveThingHandler:769  ] - NODE 16: Command received zwave:device:1579c2c54b2:node16:switch_binary --> ON
+2016-12-21 11:44:07.535 [DEBUG] [.ZWaveBinarySwitchCommandClass:144  ] - NODE 16: Creating new message for application command SWITCH_BINARY_SET
+2016-12-21 11:44:07.536 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 9. Queue={}
+2016-12-21 11:44:07.537 [INFO ] [arthome.event.ItemCommandEvent:43   ] - Item 'zwave_device_1579c2c54b2_switch_binary' received command ON
+2016-12-21 11:44:07.537 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_device_1579c2c54b2_switch_binary updated to ON
+2016-12-21 11:44:07.538 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_device_1579c2c54b2_switch_binary changed from OFF to ON
+2016-12-21 11:44:08.853 [ERROR] [WaveController$ZWaveSendThread:1211 ] - NODE 16: Timeout while sending message. Requeueing - 0 attempts left!
+2016-12-21 11:44:08.853 [ERROR] [b.z.i.p.s.SendDataMessageClass:162  ] - NODE 16: Got an error while sending data. Resending message.
+2016-12-21 11:44:08.853 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 10. Queue={}
+2016-12-21 11:44:08.854 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 9
+2016-12-21 11:44:08.854 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 0A 00 13 10 03 25 01 FF 25 A8 A3 
+2016-12-21 11:44:08.854 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 0A 00 13 10 03 25 01 FF 25 A8 A3 
+2016-12-21 11:44:08.859 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:08.860 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:08.860 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-21 11:44:08.860 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:08.860 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-21 11:44:08.860 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-21 11:44:08.871 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 A8 00 41 
+2016-12-21 11:44:08.872 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:08.872 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 A8 00 00 00 43 
+2016-12-21 11:44:08.872 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 A8 00 00 00 43 
+2016-12-21 11:44:08.872 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=A8 00 
+2016-12-21 11:44:08.873 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 168, Status = Transmission complete and ACK received(0)
+2016-12-21 11:44:08.873 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Set, dest=16, payload=10 03 25 01 FF 
+2016-12-21 11:44:08.873 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=A8 00 
+2016-12-21 11:44:08.873 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:95   ] - Checking transaction complete: class=SendData, callback id=168, expected=SendData, cancelled=false        transaction complete!
+2016-12-21 11:44:08.873 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveTransactionCompletedEvent
+2016-12-21 11:44:08.873 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveTransactionCompletedEvent
+2016-12-21 11:44:08.874 [DEBUG] [WaveController$ZWaveSendThread:1228 ] - NODE 16: Response processed after 20ms/588ms.
+2016-12-21 11:44:08.874 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 8
+2016-12-21 11:44:08.874 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 13 10 02 25 02 25 A9 5C 
+2016-12-21 11:44:08.874 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 09 00 13 10 02 25 02 25 A9 5C 
+2016-12-21 11:44:08.879 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:08.879 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:08.879 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-21 11:44:08.879 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:08.880 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-21 11:44:08.880 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-21 11:44:08.891 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 A9 00 40 
+2016-12-21 11:44:08.892 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:08.892 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 A9 00 00 00 42 
+2016-12-21 11:44:08.892 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 A9 00 00 00 42 
+2016-12-21 11:44:08.892 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=A9 00 
+2016-12-21 11:44:08.892 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 169, Status = Transmission complete and ACK received(0)
+2016-12-21 11:44:08.892 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 25 02 
+2016-12-21 11:44:08.893 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=A9 00 
+2016-12-21 11:44:08.893 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=169, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+2016-12-21 11:44:13.874 [WARN ] [WaveController$ZWaveSendThread:1219 ] - NODE 16: Too many retries. Discarding message: Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 25 02 
+2016-12-21 11:44:13.875 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 7
+2016-12-21 11:44:13.875 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 13 10 02 32 01 25 98 79 
+2016-12-21 11:44:13.875 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 09 00 13 10 02 32 01 25 98 79 
+2016-12-21 11:44:13.880 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:13.881 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:13.881 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-21 11:44:13.881 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:13.881 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-21 11:44:13.881 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-21 11:44:13.892 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 98 00 71 
+2016-12-21 11:44:13.893 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:13.893 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 98 00 00 00 73 
+2016-12-21 11:44:13.893 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 98 00 00 00 73 
+2016-12-21 11:44:13.893 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=98 00 
+2016-12-21 11:44:13.893 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 152, Status = Transmission complete and ACK received(0)
+2016-12-21 11:44:13.893 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 32 01 
+2016-12-21 11:44:13.893 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=98 00 
+2016-12-21 11:44:13.894 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=152, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+2016-12-21 11:44:18.876 [ERROR] [WaveController$ZWaveSendThread:1211 ] - NODE 16: Timeout while sending message. Requeueing - 2 attempts left!
+2016-12-21 11:44:18.876 [ERROR] [b.z.i.p.s.SendDataMessageClass:162  ] - NODE 16: Got an error while sending data. Resending message.
+2016-12-21 11:44:18.877 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 8. Queue={}
+2016-12-21 11:44:18.877 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 7
+2016-12-21 11:44:18.877 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 13 10 02 32 01 25 AA 4B 
+2016-12-21 11:44:18.877 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 09 00 13 10 02 32 01 25 AA 4B 
+2016-12-21 11:44:18.882 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:18.883 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:18.883 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-21 11:44:18.883 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:18.883 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-21 11:44:18.883 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-21 11:44:18.894 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 AA 00 43 
+2016-12-21 11:44:18.895 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:18.895 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 AA 00 00 00 41 
+2016-12-21 11:44:18.895 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 AA 00 00 00 41 
+2016-12-21 11:44:18.895 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=AA 00 
+2016-12-21 11:44:18.896 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 170, Status = Transmission complete and ACK received(0)
+2016-12-21 11:44:18.896 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 32 01 
+2016-12-21 11:44:18.896 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=AA 00 
+2016-12-21 11:44:18.896 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=170, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+2016-12-21 11:44:22.249 [DEBUG] [.b.z.i.p.s.AddNodeMessageClass:60   ] - Ending INCLUSION mode.
+2016-12-21 11:44:22.250 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 8. Queue={}
+2016-12-21 11:44:23.878 [ERROR] [WaveController$ZWaveSendThread:1211 ] - NODE 16: Timeout while sending message. Requeueing - 1 attempts left!
+2016-12-21 11:44:23.878 [ERROR] [b.z.i.p.s.SendDataMessageClass:162  ] - NODE 16: Got an error while sending data. Resending message.
+2016-12-21 11:44:23.879 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 9. Queue={}
+2016-12-21 11:44:23.879 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 8
+2016-12-21 11:44:23.879 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 00 4A 05 B4 
+2016-12-21 11:44:23.880 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 255: Sending REQUEST Message = 01 04 00 4A 05 B4 
+2016-12-21 11:44:23.933 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 07 00 4A 02 06 00 00 B6 
+2016-12-21 11:44:23.933 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:23.934 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 4A 02 06 00 00 B6 
+2016-12-21 11:44:23.934 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 4A 02 06 00 00 B6 
+2016-12-21 11:44:23.934 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=AddNodeToNetwork[0x4A], type=Request[0x00], priority=High, dest=255, payload=02 06 00 00 
+2016-12-21 11:44:23.934 [DEBUG] [.b.z.i.p.s.AddNodeMessageClass:98   ] - Add Node: Done.
+2016-12-21 11:44:23.934 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=AddNodeToNetwork[0x4A], type=Request[0x00], priority=High, dest=255, payload=05 
+2016-12-21 11:44:23.934 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=AddNodeToNetwork[0x4A], type=Request[0x00], priority=High, dest=255, payload=02 06 00 00 
+2016-12-21 11:44:23.934 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:95   ] - Checking transaction complete: class=AddNodeToNetwork, callback id=0, expected=AddNodeToNetwork, cancelled=false        transaction complete!
+2016-12-21 11:44:23.934 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveTransactionCompletedEvent
+2016-12-21 11:44:23.935 [DEBUG] [WaveController$ZWaveSendThread:1228 ] - NODE 255: Response processed after 55ms/588ms.
+2016-12-21 11:44:23.935 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 7
+2016-12-21 11:44:23.935 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 13 10 02 32 01 25 AB 4A 
+2016-12-21 11:44:23.935 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 09 00 13 10 02 32 01 25 AB 4A 
+2016-12-21 11:44:23.940 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:23.940 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:23.941 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-21 11:44:23.941 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:23.941 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-21 11:44:23.941 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-21 11:44:23.952 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 AB 00 42 
+2016-12-21 11:44:23.953 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:23.953 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 AB 00 00 00 40 
+2016-12-21 11:44:23.953 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 AB 00 00 00 40 
+2016-12-21 11:44:23.954 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=AB 00 
+2016-12-21 11:44:23.954 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 171, Status = Transmission complete and ACK received(0)
+2016-12-21 11:44:23.954 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 32 01 
+2016-12-21 11:44:23.954 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=AB 00 
+2016-12-21 11:44:23.954 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=171, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+2016-12-21 11:44:28.936 [ERROR] [WaveController$ZWaveSendThread:1211 ] - NODE 16: Timeout while sending message. Requeueing - 0 attempts left!
+2016-12-21 11:44:28.936 [ERROR] [b.z.i.p.s.SendDataMessageClass:162  ] - NODE 16: Got an error while sending data. Resending message.
+2016-12-21 11:44:28.937 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 8. Queue={}
+2016-12-21 11:44:28.938 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 7
+2016-12-21 11:44:28.938 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 13 10 02 32 01 25 AC 4D 
+2016-12-21 11:44:28.938 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 09 00 13 10 02 32 01 25 AC 4D 
+2016-12-21 11:44:28.943 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:28.944 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:28.944 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-21 11:44:28.945 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:28.945 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-21 11:44:28.945 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-21 11:44:28.955 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 AC 00 45 
+2016-12-21 11:44:28.956 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:28.956 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 AC 00 00 00 47 
+2016-12-21 11:44:28.957 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 AC 00 00 00 47 
+2016-12-21 11:44:28.957 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=AC 00 
+2016-12-21 11:44:28.957 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 172, Status = Transmission complete and ACK received(0)
+2016-12-21 11:44:28.957 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 32 01 
+2016-12-21 11:44:28.957 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=AC 00 
+2016-12-21 11:44:28.957 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=172, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+2016-12-21 11:44:33.939 [WARN ] [WaveController$ZWaveSendThread:1219 ] - NODE 16: Too many retries. Discarding message: Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 32 01 
+2016-12-21 11:44:33.939 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 6
+2016-12-21 11:44:33.940 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 13 10 02 32 01 25 99 78 
+2016-12-21 11:44:33.940 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 09 00 13 10 02 32 01 25 99 78 
+2016-12-21 11:44:33.944 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:33.945 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:33.945 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-21 11:44:33.945 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:33.945 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-21 11:44:33.945 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-21 11:44:33.957 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 99 00 70 
+2016-12-21 11:44:33.957 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:33.957 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 99 00 00 00 72 
+2016-12-21 11:44:33.957 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 99 00 00 00 72 
+2016-12-21 11:44:33.957 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=99 00 
+2016-12-21 11:44:33.957 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 153, Status = Transmission complete and ACK received(0)
+2016-12-21 11:44:33.957 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 32 01 
+2016-12-21 11:44:33.957 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=99 00 
+2016-12-21 11:44:33.957 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=153, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+2016-12-21 11:44:33.967 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 14 00 04 00 10 0E 32 02 21 64 00 00 07 45 00 5A 00 00 07 45 DE 
+2016-12-21 11:44:33.967 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:33.967 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 14 00 04 00 10 0E 32 02 21 64 00 00 07 45 00 5A 00 00 07 45 DE 
+2016-12-21 11:44:33.968 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 14 00 04 00 10 0E 32 02 21 64 00 00 07 45 00 5A 00 00 07 45 DE 
+2016-12-21 11:44:33.968 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=ApplicationCommandHandler[0x04], type=Request[0x00], priority=High, dest=255, payload=00 10 0E 32 02 21 64 00 00 07 45 00 5A 00 00 07 45 
+2016-12-21 11:44:33.968 [DEBUG] [ApplicationCommandMessageClass:42   ] - NODE 16: Application Command Request (ALIVE:DONE)
+2016-12-21 11:44:33.968 [DEBUG] [ApplicationCommandMessageClass:151  ] - NODE 16: Incoming command class METER
+2016-12-21 11:44:33.968 [DEBUG] [z.i.p.c.ZWaveMeterCommandClass:110  ] - NODE 16: Received Meter Request
+2016-12-21 11:44:33.968 [DEBUG] [z.i.p.c.ZWaveMeterCommandClass:158  ] - NODE 16: Meter: Type=Electric(1), Scale=kWh(0), Value=1.861, Delta=90
+2016-12-21 11:44:33.968 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveMeterValueEvent
+2016-12-21 11:44:33.968 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveMeterValueEvent
+2016-12-21 11:44:33.968 [DEBUG] [.b.z.handler.ZWaveThingHandler:844  ] - NODE 16: Got a value event from Z-Wave network, endpoint = 0, command class = METER, value = 1.861
+2016-12-21 11:44:33.968 [DEBUG] [.b.z.handler.ZWaveThingHandler:1024 ] - NODE 16: Config updated
+2016-12-21 11:44:34.128 [INFO ] [rthome.event.ThingUpdatedEvent:43   ] - Thing 'zwave:device:1579c2c54b2:node16' has been updated.
+2016-12-21 11:44:34.128 [DEBUG] [.b.z.handler.ZWaveThingHandler:1054 ] - Updating zwave:device:1579c2c54b2:node16:meter_kwh to 1.861
+2016-12-21 11:44:34.129 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:106  ] - Not the right scale E_W <> E_KWh
+2016-12-21 11:44:34.129 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 32 01 
+2016-12-21 11:44:34.129 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=ApplicationCommandHandler[0x04], type=Request[0x00], priority=High, dest=255, payload=00 10 0E 32 02 21 64 00 00 07 45 00 5A 00 00 07 45 
+2016-12-21 11:44:34.129 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:95   ] - Checking transaction complete: class=ApplicationCommandHandler, callback id=153, expected=ApplicationCommandHandler, cancelled=false        transaction complete!
+2016-12-21 11:44:34.129 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveTransactionCompletedEvent
+2016-12-21 11:44:34.129 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveTransactionCompletedEvent
+2016-12-21 11:44:34.129 [DEBUG] [WaveController$ZWaveSendThread:1228 ] - NODE 16: Response processed after 189ms/588ms.
+2016-12-21 11:44:34.129 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 5
+2016-12-21 11:44:34.129 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 13 10 02 31 04 25 9A 7D 
+2016-12-21 11:44:34.130 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 09 00 13 10 02 31 04 25 9A 7D 
+2016-12-21 11:44:34.130 [INFO ] [s.event.ConfigStatusInfoEvent :43   ] - ConfigStatusInfo [configStatusMessages=[]]
+2016-12-21 11:44:34.134 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:34.135 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:34.135 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-21 11:44:34.135 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:34.135 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-21 11:44:34.137 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-21 11:44:34.146 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 9A 00 73 
+2016-12-21 11:44:34.147 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:34.147 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 9A 00 00 00 71 
+2016-12-21 11:44:34.148 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 9A 00 00 00 71 
+2016-12-21 11:44:34.148 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=9A 00 
+2016-12-21 11:44:34.148 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 154, Status = Transmission complete and ACK received(0)
+2016-12-21 11:44:34.149 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 31 04 
+2016-12-21 11:44:34.149 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=9A 00 
+2016-12-21 11:44:34.149 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=154, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+2016-12-21 11:44:34.155 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 0E 00 04 00 10 08 31 05 04 64 00 00 08 0B BA 
+2016-12-21 11:44:34.156 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:34.156 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 0E 00 04 00 10 08 31 05 04 64 00 00 08 0B BA 
+2016-12-21 11:44:34.156 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 0E 00 04 00 10 08 31 05 04 64 00 00 08 0B BA 
+2016-12-21 11:44:34.156 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=ApplicationCommandHandler[0x04], type=Request[0x00], priority=High, dest=255, payload=00 10 08 31 05 04 64 00 00 08 0B 
+2016-12-21 11:44:34.156 [DEBUG] [ApplicationCommandMessageClass:42   ] - NODE 16: Application Command Request (ALIVE:DONE)
+2016-12-21 11:44:34.156 [DEBUG] [ApplicationCommandMessageClass:151  ] - NODE 16: Incoming command class SENSOR_MULTILEVEL
+2016-12-21 11:44:34.156 [DEBUG] [veMultiLevelSensorCommandClass:97   ] - NODE 16: Received Sensor Multi Level Request
+2016-12-21 11:44:34.157 [DEBUG] [veMultiLevelSensorCommandClass:128  ] - NODE 16: Sensor Multi Level REPORT received
+2016-12-21 11:44:34.157 [DEBUG] [veMultiLevelSensorCommandClass:138  ] - NODE 16: Sensor Type = Power(4), Scale = 0
+2016-12-21 11:44:34.157 [DEBUG] [veMultiLevelSensorCommandClass:147  ] - NODE 16: Sensor Value = 2.059
+2016-12-21 11:44:34.157 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveMultiLevelSensorValueEvent
+2016-12-21 11:44:34.157 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveMultiLevelSensorValueEvent
+2016-12-21 11:44:34.157 [DEBUG] [.b.z.handler.ZWaveThingHandler:844  ] - NODE 16: Got a value event from Z-Wave network, endpoint = 0, command class = SENSOR_MULTILEVEL, value = 2.059
+2016-12-21 11:44:34.157 [DEBUG] [.b.z.handler.ZWaveThingHandler:1024 ] - NODE 16: Config updated
+2016-12-21 11:44:34.319 [DEBUG] [.b.z.handler.ZWaveThingHandler:1054 ] - Updating zwave:device:1579c2c54b2:node16:sensor_power to 2.059
+2016-12-21 11:44:34.320 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 31 04 
+2016-12-21 11:44:34.320 [INFO ] [rthome.event.ThingUpdatedEvent:43   ] - Thing 'zwave:device:1579c2c54b2:node16' has been updated.
+2016-12-21 11:44:34.320 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=ApplicationCommandHandler[0x04], type=Request[0x00], priority=High, dest=255, payload=00 10 08 31 05 04 64 00 00 08 0B 
+2016-12-21 11:44:34.320 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:95   ] - Checking transaction complete: class=ApplicationCommandHandler, callback id=154, expected=ApplicationCommandHandler, cancelled=false        transaction complete!
+2016-12-21 11:44:34.320 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveTransactionCompletedEvent
+2016-12-21 11:44:34.321 [INFO ] [s.event.ConfigStatusInfoEvent :43   ] - ConfigStatusInfo [configStatusMessages=[]]
+2016-12-21 11:44:34.321 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveTransactionCompletedEvent
+2016-12-21 11:44:34.321 [DEBUG] [WaveController$ZWaveSendThread:1228 ] - NODE 16: Response processed after 191ms/588ms.
+2016-12-21 11:44:34.321 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 4
+2016-12-21 11:44:34.321 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 13 10 02 25 02 25 9B 6E 
+2016-12-21 11:44:34.322 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 09 00 13 10 02 25 02 25 9B 6E 
+2016-12-21 11:44:34.330 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:34.332 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:34.333 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-21 11:44:34.334 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:34.334 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-21 11:44:34.334 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-21 11:44:34.339 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 9B 00 72 
+2016-12-21 11:44:34.339 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:34.340 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 9B 00 00 00 70 
+2016-12-21 11:44:34.340 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 9B 00 00 00 70 
+2016-12-21 11:44:34.340 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=9B 00 
+2016-12-21 11:44:34.341 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 155, Status = Transmission complete and ACK received(0)
+2016-12-21 11:44:34.341 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 25 02 
+2016-12-21 11:44:34.341 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=9B 00 
+2016-12-21 11:44:34.342 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=155, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+2016-12-21 11:44:34.346 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 09 00 04 00 10 03 25 03 FF 38 
+2016-12-21 11:44:34.348 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:34.348 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 04 00 10 03 25 03 FF 38 
+2016-12-21 11:44:34.348 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 09 00 04 00 10 03 25 03 FF 38 
+2016-12-21 11:44:34.348 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=ApplicationCommandHandler[0x04], type=Request[0x00], priority=High, dest=255, payload=00 10 03 25 03 FF 
+2016-12-21 11:44:34.348 [DEBUG] [ApplicationCommandMessageClass:42   ] - NODE 16: Application Command Request (ALIVE:DONE)
+2016-12-21 11:44:34.348 [DEBUG] [ApplicationCommandMessageClass:151  ] - NODE 16: Incoming command class SWITCH_BINARY
+2016-12-21 11:44:34.348 [DEBUG] [.ZWaveBinarySwitchCommandClass:81   ] - Received Switch Binary Request for Node ID = 16
+2016-12-21 11:44:34.348 [DEBUG] [.ZWaveBinarySwitchCommandClass:108  ] - NODE 16: Switch Binary report, value = 255
+2016-12-21 11:44:34.349 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveCommandClassValueEvent
+2016-12-21 11:44:34.349 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveCommandClassValueEvent
+2016-12-21 11:44:34.349 [DEBUG] [.b.z.handler.ZWaveThingHandler:844  ] - NODE 16: Got a value event from Z-Wave network, endpoint = 0, command class = SWITCH_BINARY, value = 255
+2016-12-21 11:44:34.349 [DEBUG] [.b.z.handler.ZWaveThingHandler:1024 ] - NODE 16: Config updated
+2016-12-21 11:44:34.500 [DEBUG] [.b.z.handler.ZWaveThingHandler:1054 ] - Updating zwave:device:1579c2c54b2:node16:switch_binary to ON
+2016-12-21 11:44:34.501 [INFO ] [rthome.event.ThingUpdatedEvent:43   ] - Thing 'zwave:device:1579c2c54b2:node16' has been updated.
+2016-12-21 11:44:34.501 [INFO ] [s.event.ConfigStatusInfoEvent :43   ] - ConfigStatusInfo [configStatusMessages=[]]
+2016-12-21 11:44:34.501 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 25 02 
+2016-12-21 11:44:34.501 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=ApplicationCommandHandler[0x04], type=Request[0x00], priority=High, dest=255, payload=00 10 03 25 03 FF 
+2016-12-21 11:44:34.502 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_device_1579c2c54b2_switch_binary updated to ON
+2016-12-21 11:44:34.502 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:95   ] - Checking transaction complete: class=ApplicationCommandHandler, callback id=155, expected=ApplicationCommandHandler, cancelled=false        transaction complete!
+2016-12-21 11:44:34.502 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveTransactionCompletedEvent
+2016-12-21 11:44:34.502 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveTransactionCompletedEvent
+2016-12-21 11:44:34.502 [DEBUG] [WaveController$ZWaveSendThread:1228 ] - NODE 16: Response processed after 180ms/588ms.
+2016-12-21 11:44:34.502 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 3
+2016-12-21 11:44:34.503 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 13 10 02 32 01 25 A1 40 
+2016-12-21 11:44:34.503 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 09 00 13 10 02 32 01 25 A1 40 
+2016-12-21 11:44:34.508 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:34.508 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:34.508 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-21 11:44:34.509 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:34.509 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-21 11:44:34.509 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-21 11:44:34.520 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 A1 00 48 
+2016-12-21 11:44:34.521 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:34.521 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 A1 00 00 00 4A 
+2016-12-21 11:44:34.522 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 A1 00 00 00 4A 
+2016-12-21 11:44:34.522 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=A1 00 
+2016-12-21 11:44:34.522 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 161, Status = Transmission complete and ACK received(0)
+2016-12-21 11:44:34.522 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 32 01 
+2016-12-21 11:44:34.522 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=A1 00 
+2016-12-21 11:44:34.522 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=161, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+2016-12-21 11:44:34.531 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 14 00 04 00 10 0E 32 02 21 64 00 00 07 45 00 01 00 00 07 45 85 
+2016-12-21 11:44:34.531 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:34.532 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 14 00 04 00 10 0E 32 02 21 64 00 00 07 45 00 01 00 00 07 45 85 
+2016-12-21 11:44:34.532 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 14 00 04 00 10 0E 32 02 21 64 00 00 07 45 00 01 00 00 07 45 85 
+2016-12-21 11:44:34.532 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=ApplicationCommandHandler[0x04], type=Request[0x00], priority=High, dest=255, payload=00 10 0E 32 02 21 64 00 00 07 45 00 01 00 00 07 45 
+2016-12-21 11:44:34.532 [DEBUG] [ApplicationCommandMessageClass:42   ] - NODE 16: Application Command Request (ALIVE:DONE)
+2016-12-21 11:44:34.532 [DEBUG] [ApplicationCommandMessageClass:151  ] - NODE 16: Incoming command class METER
+2016-12-21 11:44:34.532 [DEBUG] [z.i.p.c.ZWaveMeterCommandClass:110  ] - NODE 16: Received Meter Request
+2016-12-21 11:44:34.533 [DEBUG] [z.i.p.c.ZWaveMeterCommandClass:158  ] - NODE 16: Meter: Type=Electric(1), Scale=kWh(0), Value=1.861, Delta=1
+2016-12-21 11:44:34.533 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveMeterValueEvent
+2016-12-21 11:44:34.533 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveMeterValueEvent
+2016-12-21 11:44:34.533 [DEBUG] [.b.z.handler.ZWaveThingHandler:844  ] - NODE 16: Got a value event from Z-Wave network, endpoint = 0, command class = METER, value = 1.861
+2016-12-21 11:44:34.533 [DEBUG] [.b.z.handler.ZWaveThingHandler:1024 ] - NODE 16: Config updated
+2016-12-21 11:44:34.686 [DEBUG] [.b.z.handler.ZWaveThingHandler:1054 ] - Updating zwave:device:1579c2c54b2:node16:meter_kwh to 1.861
+2016-12-21 11:44:34.686 [INFO ] [rthome.event.ThingUpdatedEvent:43   ] - Thing 'zwave:device:1579c2c54b2:node16' has been updated.
+2016-12-21 11:44:34.686 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:106  ] - Not the right scale E_W <> E_KWh
+2016-12-21 11:44:34.687 [INFO ] [s.event.ConfigStatusInfoEvent :43   ] - ConfigStatusInfo [configStatusMessages=[]]
+2016-12-21 11:44:34.687 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 32 01 
+2016-12-21 11:44:34.687 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=ApplicationCommandHandler[0x04], type=Request[0x00], priority=High, dest=255, payload=00 10 0E 32 02 21 64 00 00 07 45 00 01 00 00 07 45 
+2016-12-21 11:44:34.687 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:95   ] - Checking transaction complete: class=ApplicationCommandHandler, callback id=161, expected=ApplicationCommandHandler, cancelled=false        transaction complete!
+2016-12-21 11:44:34.687 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveTransactionCompletedEvent
+2016-12-21 11:44:34.687 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveTransactionCompletedEvent
+2016-12-21 11:44:34.688 [DEBUG] [WaveController$ZWaveSendThread:1228 ] - NODE 16: Response processed after 185ms/588ms.
+2016-12-21 11:44:34.688 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 2
+2016-12-21 11:44:34.688 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 13 10 02 32 01 25 A2 43 
+2016-12-21 11:44:34.688 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 09 00 13 10 02 32 01 25 A2 43 
+2016-12-21 11:44:34.693 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:34.693 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:34.693 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-21 11:44:34.693 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:34.693 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-21 11:44:34.694 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-21 11:44:34.705 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 A2 00 4B 
+2016-12-21 11:44:34.705 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:34.705 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 A2 00 00 00 49 
+2016-12-21 11:44:34.706 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 A2 00 00 00 49 
+2016-12-21 11:44:34.706 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=A2 00 
+2016-12-21 11:44:34.706 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 162, Status = Transmission complete and ACK received(0)
+2016-12-21 11:44:34.706 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 32 01 
+2016-12-21 11:44:34.706 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=A2 00 
+2016-12-21 11:44:34.706 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=162, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+2016-12-21 11:44:34.715 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 14 00 04 00 10 0E 32 02 21 64 00 00 07 45 00 00 00 00 07 45 84 
+2016-12-21 11:44:34.716 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:34.716 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 14 00 04 00 10 0E 32 02 21 64 00 00 07 45 00 00 00 00 07 45 84 
+2016-12-21 11:44:34.716 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 14 00 04 00 10 0E 32 02 21 64 00 00 07 45 00 00 00 00 07 45 84 
+2016-12-21 11:44:34.716 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=ApplicationCommandHandler[0x04], type=Request[0x00], priority=High, dest=255, payload=00 10 0E 32 02 21 64 00 00 07 45 00 00 00 00 07 45 
+2016-12-21 11:44:34.716 [DEBUG] [ApplicationCommandMessageClass:42   ] - NODE 16: Application Command Request (ALIVE:DONE)
+2016-12-21 11:44:34.717 [DEBUG] [ApplicationCommandMessageClass:151  ] - NODE 16: Incoming command class METER
+2016-12-21 11:44:34.717 [DEBUG] [z.i.p.c.ZWaveMeterCommandClass:110  ] - NODE 16: Received Meter Request
+2016-12-21 11:44:34.717 [DEBUG] [z.i.p.c.ZWaveMeterCommandClass:158  ] - NODE 16: Meter: Type=Electric(1), Scale=kWh(0), Value=1.861, Delta=0
+2016-12-21 11:44:34.717 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveMeterValueEvent
+2016-12-21 11:44:34.717 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveMeterValueEvent
+2016-12-21 11:44:34.717 [DEBUG] [.b.z.handler.ZWaveThingHandler:844  ] - NODE 16: Got a value event from Z-Wave network, endpoint = 0, command class = METER, value = 1.861
+2016-12-21 11:44:34.718 [DEBUG] [.b.z.handler.ZWaveThingHandler:1024 ] - NODE 16: Config updated
+2016-12-21 11:44:34.875 [DEBUG] [.b.z.handler.ZWaveThingHandler:1054 ] - Updating zwave:device:1579c2c54b2:node16:meter_kwh to 1.861
+2016-12-21 11:44:34.875 [INFO ] [rthome.event.ThingUpdatedEvent:43   ] - Thing 'zwave:device:1579c2c54b2:node16' has been updated.
+2016-12-21 11:44:34.875 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:106  ] - Not the right scale E_W <> E_KWh
+2016-12-21 11:44:34.876 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 32 01 
+2016-12-21 11:44:34.876 [INFO ] [s.event.ConfigStatusInfoEvent :43   ] - ConfigStatusInfo [configStatusMessages=[]]
+2016-12-21 11:44:34.876 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=ApplicationCommandHandler[0x04], type=Request[0x00], priority=High, dest=255, payload=00 10 0E 32 02 21 64 00 00 07 45 00 00 00 00 07 45 
+2016-12-21 11:44:34.876 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:95   ] - Checking transaction complete: class=ApplicationCommandHandler, callback id=162, expected=ApplicationCommandHandler, cancelled=false        transaction complete!
+2016-12-21 11:44:34.876 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveTransactionCompletedEvent
+2016-12-21 11:44:34.876 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveTransactionCompletedEvent
+2016-12-21 11:44:34.876 [DEBUG] [WaveController$ZWaveSendThread:1228 ] - NODE 16: Response processed after 188ms/588ms.
+2016-12-21 11:44:34.877 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 1
+2016-12-21 11:44:34.877 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 13 10 02 31 04 25 A3 44 
+2016-12-21 11:44:34.878 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 09 00 13 10 02 31 04 25 A3 44 
+2016-12-21 11:44:34.883 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:34.884 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:34.884 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-21 11:44:34.884 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:34.884 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-21 11:44:34.884 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-21 11:44:34.895 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 A3 00 4A 
+2016-12-21 11:44:34.895 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:34.896 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 A3 00 00 00 48 
+2016-12-21 11:44:34.896 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 A3 00 00 00 48 
+2016-12-21 11:44:34.896 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=A3 00 
+2016-12-21 11:44:34.896 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 163, Status = Transmission complete and ACK received(0)
+2016-12-21 11:44:34.896 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 31 04 
+2016-12-21 11:44:34.897 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=A3 00 
+2016-12-21 11:44:34.897 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=163, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+2016-12-21 11:44:34.903 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 0E 00 04 00 10 08 31 05 04 64 00 00 08 0B BA 
+2016-12-21 11:44:34.903 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:34.904 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 0E 00 04 00 10 08 31 05 04 64 00 00 08 0B BA 
+2016-12-21 11:44:34.904 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 0E 00 04 00 10 08 31 05 04 64 00 00 08 0B BA 
+2016-12-21 11:44:34.904 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=ApplicationCommandHandler[0x04], type=Request[0x00], priority=High, dest=255, payload=00 10 08 31 05 04 64 00 00 08 0B 
+2016-12-21 11:44:34.904 [DEBUG] [ApplicationCommandMessageClass:42   ] - NODE 16: Application Command Request (ALIVE:DONE)
+2016-12-21 11:44:34.905 [DEBUG] [ApplicationCommandMessageClass:151  ] - NODE 16: Incoming command class SENSOR_MULTILEVEL
+2016-12-21 11:44:34.905 [DEBUG] [veMultiLevelSensorCommandClass:97   ] - NODE 16: Received Sensor Multi Level Request
+2016-12-21 11:44:34.905 [DEBUG] [veMultiLevelSensorCommandClass:128  ] - NODE 16: Sensor Multi Level REPORT received
+2016-12-21 11:44:34.905 [DEBUG] [veMultiLevelSensorCommandClass:138  ] - NODE 16: Sensor Type = Power(4), Scale = 0
+2016-12-21 11:44:34.905 [DEBUG] [veMultiLevelSensorCommandClass:147  ] - NODE 16: Sensor Value = 2.059
+2016-12-21 11:44:34.906 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveMultiLevelSensorValueEvent
+2016-12-21 11:44:34.906 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveMultiLevelSensorValueEvent
+2016-12-21 11:44:34.906 [DEBUG] [.b.z.handler.ZWaveThingHandler:844  ] - NODE 16: Got a value event from Z-Wave network, endpoint = 0, command class = SENSOR_MULTILEVEL, value = 2.059
+2016-12-21 11:44:34.906 [DEBUG] [.b.z.handler.ZWaveThingHandler:1024 ] - NODE 16: Config updated
+2016-12-21 11:44:35.052 [DEBUG] [.b.z.handler.ZWaveThingHandler:1054 ] - Updating zwave:device:1579c2c54b2:node16:sensor_power to 2.059
+2016-12-21 11:44:35.052 [INFO ] [rthome.event.ThingUpdatedEvent:43   ] - Thing 'zwave:device:1579c2c54b2:node16' has been updated.
+2016-12-21 11:44:35.052 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 31 04 
+2016-12-21 11:44:35.053 [INFO ] [s.event.ConfigStatusInfoEvent :43   ] - ConfigStatusInfo [configStatusMessages=[]]
+2016-12-21 11:44:35.052 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=ApplicationCommandHandler[0x04], type=Request[0x00], priority=High, dest=255, payload=00 10 08 31 05 04 64 00 00 08 0B 
+2016-12-21 11:44:35.053 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:95   ] - Checking transaction complete: class=ApplicationCommandHandler, callback id=163, expected=ApplicationCommandHandler, cancelled=false        transaction complete!
+2016-12-21 11:44:35.053 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveTransactionCompletedEvent
+2016-12-21 11:44:35.053 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveTransactionCompletedEvent
+2016-12-21 11:44:35.053 [DEBUG] [WaveController$ZWaveSendThread:1228 ] - NODE 16: Response processed after 175ms/588ms.
+2016-12-21 11:44:35.053 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 0
+2016-12-21 11:44:35.053 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 13 10 02 25 02 25 A4 51 
+2016-12-21 11:44:35.053 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 09 00 13 10 02 25 02 25 A4 51 
+2016-12-21 11:44:35.058 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:35.059 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:35.059 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-21 11:44:35.060 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-21 11:44:35.060 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-21 11:44:35.060 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-21 11:44:35.070 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 A4 00 4D 
+2016-12-21 11:44:35.071 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:35.071 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 A4 00 00 00 4F 
+2016-12-21 11:44:35.071 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 A4 00 00 00 4F 
+2016-12-21 11:44:35.071 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=A4 00 
+2016-12-21 11:44:35.072 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 164, Status = Transmission complete and ACK received(0)
+2016-12-21 11:44:35.072 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 25 02 
+2016-12-21 11:44:35.072 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=A4 00 
+2016-12-21 11:44:35.072 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=164, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+2016-12-21 11:44:35.078 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 09 00 04 00 10 03 25 03 FF 38 
+2016-12-21 11:44:35.078 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 11:44:35.079 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 04 00 10 03 25 03 FF 38 
+2016-12-21 11:44:35.079 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 09 00 04 00 10 03 25 03 FF 38 
+2016-12-21 11:44:35.079 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=ApplicationCommandHandler[0x04], type=Request[0x00], priority=High, dest=255, payload=00 10 03 25 03 FF 
+2016-12-21 11:44:35.079 [DEBUG] [ApplicationCommandMessageClass:42   ] - NODE 16: Application Command Request (ALIVE:DONE)
+2016-12-21 11:44:35.079 [DEBUG] [ApplicationCommandMessageClass:151  ] - NODE 16: Incoming command class SWITCH_BINARY
+2016-12-21 11:44:35.079 [DEBUG] [.ZWaveBinarySwitchCommandClass:81   ] - Received Switch Binary Request for Node ID = 16
+2016-12-21 11:44:35.079 [DEBUG] [.ZWaveBinarySwitchCommandClass:108  ] - NODE 16: Switch Binary report, value = 255
+2016-12-21 11:44:35.080 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveCommandClassValueEvent
+2016-12-21 11:44:35.080 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveCommandClassValueEvent
+2016-12-21 11:44:35.080 [DEBUG] [.b.z.handler.ZWaveThingHandler:844  ] - NODE 16: Got a value event from Z-Wave network, endpoint = 0, command class = SWITCH_BINARY, value = 255
+2016-12-21 11:44:35.080 [DEBUG] [.b.z.handler.ZWaveThingHandler:1024 ] - NODE 16: Config updated
+2016-12-21 11:44:35.208 [INFO ] [rthome.event.ThingUpdatedEvent:43   ] - Thing 'zwave:device:1579c2c54b2:node16' has been updated.
+2016-12-21 11:44:35.208 [DEBUG] [.b.z.handler.ZWaveThingHandler:1054 ] - Updating zwave:device:1579c2c54b2:node16:switch_binary to ON
+2016-12-21 11:44:35.209 [INFO ] [s.event.ConfigStatusInfoEvent :43   ] - ConfigStatusInfo [configStatusMessages=[]]
+2016-12-21 11:44:35.209 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 25 02 
+2016-12-21 11:44:35.209 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=ApplicationCommandHandler[0x04], type=Request[0x00], priority=High, dest=255, payload=00 10 03 25 03 FF 
+2016-12-21 11:44:35.209 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_device_1579c2c54b2_switch_binary updated to ON
+2016-12-21 11:44:35.209 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:95   ] - Checking transaction complete: class=ApplicationCommandHandler, callback id=164, expected=ApplicationCommandHandler, cancelled=false        transaction complete!
+2016-12-21 11:44:35.209 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveTransactionCompletedEvent
+2016-12-21 11:44:35.209 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveTransactionCompletedEvent
+2016-12-21 11:44:35.209 [DEBUG] [WaveController$ZWaveSendThread:1228 ] - NODE 16: Response processed after 155ms/588ms.
+

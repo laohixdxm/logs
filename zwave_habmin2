@@ -1,0 +1,556 @@
+2016-12-21 14:50:32.129 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'gFF' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-21 14:50:32.130 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-21 14:50:32.130 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-21 14:50:32.130 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-21 14:50:32.130 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'gFF' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-21 14:50:32.131 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'gFF' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-21 14:50:32.131 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'gGF' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-21 14:50:32.131 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-21 14:50:32.131 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-21 14:50:32.131 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-21 14:50:32.132 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'gGF' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-21 14:50:32.132 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'gGF' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-21 14:50:32.132 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'gC' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-21 14:50:32.132 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-21 14:50:32.133 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-21 14:50:32.133 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-21 14:50:32.133 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'gC' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-21 14:50:32.133 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'gC' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-21 14:50:32.134 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'Garden' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-21 14:50:32.134 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-21 14:50:32.134 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-21 14:50:32.134 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-21 14:50:32.135 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'Garden' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-21 14:50:32.135 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'Garden' for widget org.eclipse.smarthome.model.sitemap.Group
+2016-12-21 14:50:32.136 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'Weather_Temperature' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-12-21 14:50:32.136 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Text
+2016-12-21 14:50:32.137 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Text
+2016-12-21 14:50:32.137 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'Weather_Temperature' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-12-21 14:50:32.137 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'Weather_Temperature' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-12-21 14:50:32.137 [WARN ] [s.u.i.items.ItemUIRegistryImpl:881  ] - Cannot retrieve color item Weather_LastUpdate for widget
+2016-12-21 14:50:32.138 [WARN ] [s.u.i.items.ItemUIRegistryImpl:881  ] - Cannot retrieve color item Weather_LastUpdate for widget
+2016-12-21 14:50:32.139 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'CurrentDate' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-12-21 14:50:32.139 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Text
+2016-12-21 14:50:32.139 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Text
+2016-12-21 14:50:32.139 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'CurrentDate' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-12-21 14:50:32.140 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'CurrentDate' for widget org.eclipse.smarthome.model.sitemap.Text
+2016-12-21 14:50:32.396 [WARN ] [.s.u.b.i.render.SwitchRenderer:70   ] - Cannot determine item type of 'DemoSwitch'org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'DemoSwitch' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:148)
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:609)
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:57)
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:166)
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:128)
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:149)
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:92)
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:170)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60)
+
+2016-12-21 14:50:32.397 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'DemoSwitch' for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.398 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.398 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'DemoSwitch' for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.398 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.399 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.399 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'DemoSwitch' for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.399 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'DemoSwitch' for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.402 [WARN ] [.s.u.b.i.render.SwitchRenderer:70   ] - Cannot determine item type of 'DemoSwitch'org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'DemoSwitch' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:148)
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:609)
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:57)
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:166)
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:128)
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:149)
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:92)
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:170)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60)
+
+2016-12-21 14:50:32.403 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'DemoSwitch' for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.403 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.404 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'DemoSwitch' for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.404 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.405 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.405 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'DemoSwitch' for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.405 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'DemoSwitch' for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.406 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'Scene_General' for widget org.eclipse.smarthome.model.sitemap.Selection
+2016-12-21 14:50:32.406 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Selection
+2016-12-21 14:50:32.406 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Selection
+2016-12-21 14:50:32.407 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Selection
+2016-12-21 14:50:32.408 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'Scene_General' for widget org.eclipse.smarthome.model.sitemap.Selection
+2016-12-21 14:50:32.410 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'Scene_General' for widget org.eclipse.smarthome.model.sitemap.Selection
+2016-12-21 14:50:32.411 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'Scene_General' for widget org.eclipse.smarthome.model.sitemap.Selection
+2016-12-21 14:50:32.412 [WARN ] [.s.u.b.i.render.SwitchRenderer:70   ] - Cannot determine item type of 'Scene_General'org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'Scene_General' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:148)
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:609)
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:57)
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:166)
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:128)
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:149)
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:92)
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:170)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60)
+
+2016-12-21 14:50:32.413 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'Scene_General' for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.413 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.414 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'Scene_General' for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.414 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.414 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.414 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'Scene_General' for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.414 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'Scene_General' for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.415 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'Temperature_Setpoint' for widget org.eclipse.smarthome.model.sitemap.Setpoint
+2016-12-21 14:50:32.415 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'Temperature_Setpoint' for widget org.eclipse.smarthome.model.sitemap.Setpoint
+2016-12-21 14:50:32.416 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Setpoint
+2016-12-21 14:50:32.416 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Setpoint
+2016-12-21 14:50:32.416 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Setpoint
+2016-12-21 14:50:32.416 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'Temperature_Setpoint' for widget org.eclipse.smarthome.model.sitemap.Setpoint
+2016-12-21 14:50:32.417 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'Temperature_Setpoint' for widget org.eclipse.smarthome.model.sitemap.Setpoint
+2016-12-21 14:50:32.422 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'DimmedLight' for widget org.eclipse.smarthome.model.sitemap.Slider
+2016-12-21 14:50:32.423 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Slider
+2016-12-21 14:50:32.423 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Slider
+2016-12-21 14:50:32.423 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'DimmedLight' for widget org.eclipse.smarthome.model.sitemap.Slider
+2016-12-21 14:50:32.423 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'DimmedLight' for widget org.eclipse.smarthome.model.sitemap.Slider
+2016-12-21 14:50:32.424 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'RGBLight' for widget org.eclipse.smarthome.model.sitemap.Colorpicker
+2016-12-21 14:50:32.424 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Colorpicker
+2016-12-21 14:50:32.425 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Colorpicker
+2016-12-21 14:50:32.425 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'RGBLight' for widget org.eclipse.smarthome.model.sitemap.Colorpicker
+2016-12-21 14:50:32.425 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Colorpicker
+2016-12-21 14:50:32.426 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Colorpicker
+2016-12-21 14:50:32.426 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'RGBLight' for widget org.eclipse.smarthome.model.sitemap.Colorpicker
+2016-12-21 14:50:32.426 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'RGBLight' for widget org.eclipse.smarthome.model.sitemap.Colorpicker
+2016-12-21 14:50:32.427 [WARN ] [.s.u.b.i.render.SwitchRenderer:70   ] - Cannot determine item type of 'DemoShutter'org.eclipse.smarthome.core.items.ItemNotFoundException: Item 'DemoShutter' could not be found in the item registry
+	at org.eclipse.smarthome.core.internal.items.ItemRegistryImpl.getItem(ItemRegistryImpl.java:148)
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getItem(ItemUIRegistryImpl.java:609)
+	at org.eclipse.smarthome.ui.basic.internal.render.SwitchRenderer.renderWidget(SwitchRenderer.java:57)
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.renderWidget(PageRenderer.java:166)
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:128)
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processChildren(PageRenderer.java:149)
+	at org.eclipse.smarthome.ui.basic.internal.render.PageRenderer.processPage(PageRenderer.java:92)
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:170)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60)
+
+2016-12-21 14:50:32.428 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'DemoShutter' for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.428 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.428 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'DemoShutter' for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.429 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.429 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.429 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'DemoShutter' for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.429 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'DemoShutter' for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:50:32.430 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'DemoBlinds' for widget org.eclipse.smarthome.model.sitemap.Slider
+2016-12-21 14:50:32.430 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Slider
+2016-12-21 14:50:32.430 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Slider
+2016-12-21 14:50:32.430 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'DemoBlinds' for widget org.eclipse.smarthome.model.sitemap.Slider
+2016-12-21 14:50:32.430 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'DemoBlinds' for widget org.eclipse.smarthome.model.sitemap.Slider
+2016-12-21 14:50:32.431 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'DemoLocation' for widget org.eclipse.smarthome.model.sitemap.Mapview
+2016-12-21 14:50:32.431 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Mapview
+2016-12-21 14:50:32.432 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Mapview
+2016-12-21 14:50:32.432 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'DemoLocation' for widget org.eclipse.smarthome.model.sitemap.Mapview
+2016-12-21 14:50:35.754 [WARN ] [e.jetty.servlet.ServletHandler:628  ] - /basicui/apporg.eclipse.emf.common.util.BasicEList$BasicIndexOutOfBoundsException: index=2, size=1
+	at org.eclipse.emf.common.util.BasicEList.get(BasicEList.java:346)
+	at org.eclipse.smarthome.ui.internal.items.ItemUIRegistryImpl.getWidget(ItemUIRegistryImpl.java:489)
+	at org.eclipse.smarthome.ui.basic.internal.servlet.WebAppServlet.service(WebAppServlet.java:160)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:60)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:587)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+
+2016-12-21 14:51:16.072 [INFO ] [ome.event.ThingStatusInfoEvent:43   ] - 'zwave:device:1579c2c54b2:node16' updated: UNINITIALIZED (HANDLER_MISSING_ERROR)
+2016-12-21 14:51:16.072 [DEBUG] [.b.z.handler.ZWaveThingHandler:432  ] - Handler disposed. Unregistering listener.
+2016-12-21 14:51:16.073 [DEBUG] [.b.z.handler.ZWaveThingHandler:441  ] - dispose
+2016-12-21 14:51:16.075 [INFO ] [nt.ThingStatusInfoChangedEvent:43   ] - 'zwave:device:1579c2c54b2:node16' changed from ONLINE to UNINITIALIZED (HANDLER_MISSING_ERROR)
+2016-12-21 14:51:16.079 [INFO ] [rthome.event.ThingRemovedEvent:43   ] - Thing 'zwave:device:1579c2c54b2:node16' has been removed.
+2016-12-21 14:51:16.237 [INFO ] [arthome.event.ItemRemovedEvent:43   ] - Item 'zwave_device_1579c2c54b2_node16_meter_kwh' has been removed.
+2016-12-21 14:51:16.238 [INFO ] [nt.ItemChannelLinkRemovedEvent:43   ] - Link 'zwave_device_1579c2c54b2_node16_meter_kwh => zwave:device:1579c2c54b2:node16:meter_kwh' has been removed.
+2016-12-21 14:51:16.422 [INFO ] [arthome.event.ItemRemovedEvent:43   ] - Item 'zwave_device_1579c2c54b2_node16_meter_watts' has been removed.
+2016-12-21 14:51:16.424 [INFO ] [nt.ItemChannelLinkRemovedEvent:43   ] - Link 'zwave_device_1579c2c54b2_node16_meter_watts => zwave:device:1579c2c54b2:node16:meter_watts' has been removed.
+2016-12-21 14:51:16.588 [INFO ] [arthome.event.ItemRemovedEvent:43   ] - Item 'zwave_device_1579c2c54b2_node16_sensor_power' has been removed.
+2016-12-21 14:51:16.590 [INFO ] [nt.ItemChannelLinkRemovedEvent:43   ] - Link 'zwave_device_1579c2c54b2_node16_sensor_power => zwave:device:1579c2c54b2:node16:sensor_power' has been removed.
+2016-12-21 14:51:16.765 [INFO ] [arthome.event.ItemRemovedEvent:43   ] - Item 'zwave_device_1579c2c54b2_node16_switch_binary' has been removed.
+2016-12-21 14:51:16.766 [INFO ] [nt.ItemChannelLinkRemovedEvent:43   ] - Link 'zwave_device_1579c2c54b2_node16_switch_binary => zwave:device:1579c2c54b2:node16:switch_binary' has been removed.
+2016-12-21 14:51:20.629 [INFO ] [s.i.r.core.thing.ThingResource:487  ] - Received HTTP GET request for thing config status at 'things/zwave:device:1579c2c54b2:node16/config/status' for the unknown thing 'zwave:device:1579c2c54b2:node16'.
+2016-12-21 14:51:22.935 [INFO ] [s.i.r.core.thing.ThingResource:487  ] - Received HTTP GET request for thing config status at 'things/zwave:device:1579c2c54b2:node16/config/status' for the unknown thing 'zwave:device:1579c2c54b2:node16'.
+2016-12-21 14:51:26.623 [INFO ] [s.i.r.core.thing.ThingResource:487  ] - Received HTTP GET request for thing config status at 'things/zwave:device:1579c2c54b2:node16/config/status' for the unknown thing 'zwave:device:1579c2c54b2:node16'.
+2016-12-21 14:51:28.921 [INFO ] [s.i.r.core.thing.ThingResource:300  ] - Received HTTP DELETE request for update at 'things/zwave:device:1579c2c54b2:node16' for the unknown thing 'zwave:device:1579c2c54b2:node16'.
+2016-12-21 14:51:41.269 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'zwave_device_1579c2c54b2_node16_switch_binary' for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:51:41.270 [ERROR] [s.u.i.items.ItemUIRegistryImpl:466  ] - Cannot retrieve item 'zwave_device_1579c2c54b2_node16_switch_binary' for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:51:41.270 [ERROR] [s.u.i.items.ItemUIRegistryImpl:313  ] - Cannot retrieve item for widget org.eclipse.smarthome.model.sitemap.Switch
+2016-12-21 14:51:44.150 [DEBUG] [.b.z.i.p.s.AddNodeMessageClass:60   ] - Ending INCLUSION mode.
+2016-12-21 14:51:44.150 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 1. Queue={}
+2016-12-21 14:51:44.150 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 0
+2016-12-21 14:51:44.151 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 00 4A 05 B4 
+2016-12-21 14:51:44.151 [DEBUG] [.o.b.z.d.ZWaveDiscoveryService:71   ] - Starting ZWave inclusion scan for zwave:serial_zstick:1579c2c54b2
+2016-12-21 14:51:44.151 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 255: Sending REQUEST Message = 01 04 00 4A 05 B4 
+2016-12-21 14:51:44.152 [DEBUG] [.o.b.z.d.ZWaveDiscoveryService:157  ] - NODE 16: Device discovery completed
+2016-12-21 14:51:44.203 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 07 00 4A 02 06 00 00 B6 
+2016-12-21 14:51:44.204 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 14:51:44.204 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 4A 02 06 00 00 B6 
+2016-12-21 14:51:44.204 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 4A 02 06 00 00 B6 
+2016-12-21 14:51:44.205 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=AddNodeToNetwork[0x4A], type=Request[0x00], priority=High, dest=255, payload=02 06 00 00 
+2016-12-21 14:51:44.205 [DEBUG] [.b.z.i.p.s.AddNodeMessageClass:98   ] - Add Node: Done.
+2016-12-21 14:51:44.205 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=AddNodeToNetwork[0x4A], type=Request[0x00], priority=High, dest=255, payload=05 
+2016-12-21 14:51:44.205 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=AddNodeToNetwork[0x4A], type=Request[0x00], priority=High, dest=255, payload=02 06 00 00 
+2016-12-21 14:51:44.206 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:95   ] - Checking transaction complete: class=AddNodeToNetwork, callback id=0, expected=AddNodeToNetwork, cancelled=false        transaction complete!
+2016-12-21 14:51:44.206 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveTransactionCompletedEvent
+2016-12-21 14:51:44.206 [DEBUG] [WaveController$ZWaveSendThread:1228 ] - NODE 255: Response processed after 54ms/426ms.
+2016-12-21 14:51:44.359 [INFO ] [marthome.event.InboxAddedEvent:43   ] - Discovery Result with UID 'zwave:device:1579c2c54b2:node16' has been added.
+2016-12-21 14:51:44.359 [INFO ] [s.c.d.internal.PersistentInbox:178  ] - Added new thing 'zwave:device:1579c2c54b2:node16' to inbox.
+2016-12-21 14:51:44.359 [DEBUG] [.b.z.i.p.s.AddNodeMessageClass:44   ] - Setting controller into INCLUSION mode.
+2016-12-21 14:51:44.360 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 0
+2016-12-21 14:51:44.361 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 05 00 4A 81 FF CE 
+2016-12-21 14:51:44.361 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 255: Sending REQUEST Message = 01 05 00 4A 81 FF CE 
+2016-12-21 14:51:44.360 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 1. Queue={}
+2016-12-21 14:51:44.364 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 07 00 4A FF 01 00 00 4C 
+2016-12-21 14:51:44.364 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 14:51:44.364 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 4A FF 01 00 00 4C 
+2016-12-21 14:51:44.365 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 4A FF 01 00 00 4C 
+2016-12-21 14:51:44.365 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=AddNodeToNetwork[0x4A], type=Request[0x00], priority=High, dest=255, payload=FF 01 00 00 
+2016-12-21 14:51:44.365 [DEBUG] [.b.z.i.p.s.AddNodeMessageClass:78   ] - Add Node: Learn ready.
+2016-12-21 14:51:44.365 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveInclusionEvent
+2016-12-21 14:51:44.365 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=AddNodeToNetwork[0x4A], type=Request[0x00], priority=High, dest=255, payload=81 FF 
+2016-12-21 14:51:44.365 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=AddNodeToNetwork[0x4A], type=Request[0x00], priority=High, dest=255, payload=FF 01 00 00 
+2016-12-21 14:51:44.365 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:95   ] - Checking transaction complete: class=AddNodeToNetwork, callback id=0, expected=AddNodeToNetwork, cancelled=false        transaction complete!
+2016-12-21 14:51:44.365 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveTransactionCompletedEvent
+2016-12-21 14:51:44.373 [DEBUG] [WaveController$ZWaveSendThread:1228 ] - NODE 255: Response processed after 11ms/426ms.
+2016-12-21 14:51:48.823 [INFO ] [rthome.event.InboxRemovedEvent:43   ] - Discovery Result with UID 'zwave:device:1579c2c54b2:node16' has been removed.
+2016-12-21 14:51:48.824 [INFO ] [marthome.event.ThingAddedEvent:43   ] - Thing 'zwave:device:1579c2c54b2:node16' has been added.
+2016-12-21 14:51:48.827 [INFO ] [ome.event.ThingStatusInfoEvent:43   ] - 'zwave:device:1579c2c54b2:node16' updated: INITIALIZING
+2016-12-21 14:51:48.829 [INFO ] [nt.ThingStatusInfoChangedEvent:43   ] - 'zwave:device:1579c2c54b2:node16' changed from UNINITIALIZED to INITIALIZING
+2016-12-21 14:51:48.831 [DEBUG] [.b.z.handler.ZWaveThingHandler:109  ] - Initializing ZWave thing handler.
+2016-12-21 14:51:48.835 [ERROR] [.b.z.handler.ZWaveThingHandler:153  ] - NODE 16: pollingPeriod (null) cannot be parsed - using default
+2016-12-21 14:51:48.836 [DEBUG] [.b.z.handler.ZWaveThingHandler:396  ] - NODE 16: Controller initialised. Starting device intialisation.
+2016-12-21 14:51:48.836 [INFO ] [ome.event.ThingStatusInfoEvent:43   ] - 'zwave:device:1579c2c54b2:node16' updated: ONLINE
+2016-12-21 14:51:48.837 [DEBUG] [.b.z.handler.ZWaveThingHandler:386  ] - NODE 16: Polling intialised at 1800 seconds - start in 1800000 milliseconds.
+2016-12-21 14:51:48.837 [DEBUG] [.b.z.handler.ZWaveThingHandler:396  ] - NODE 16: Controller initialised. Starting device intialisation.
+2016-12-21 14:51:48.839 [INFO ] [nt.ThingStatusInfoChangedEvent:43   ] - 'zwave:device:1579c2c54b2:node16' changed from INITIALIZING to ONLINE
+2016-12-21 14:51:48.839 [INFO ] [ome.event.ThingStatusInfoEvent:43   ] - 'zwave:device:1579c2c54b2:node16' updated: ONLINE
+2016-12-21 14:51:48.937 [INFO ] [ome.event.ThingStatusInfoEvent:43   ] - 'zwave:device:1579c2c54b2:node16' updated: UNINITIALIZED (HANDLER_MISSING_ERROR)
+2016-12-21 14:51:48.937 [DEBUG] [.b.z.handler.ZWaveThingHandler:432  ] - Handler disposed. Unregistering listener.
+2016-12-21 14:51:48.937 [DEBUG] [.b.z.handler.ZWaveThingHandler:441  ] - dispose
+2016-12-21 14:51:48.943 [INFO ] [nt.ThingStatusInfoChangedEvent:43   ] - 'zwave:device:1579c2c54b2:node16' changed from ONLINE to UNINITIALIZED (HANDLER_MISSING_ERROR)
+2016-12-21 14:51:49.098 [INFO ] [ome.event.ThingStatusInfoEvent:43   ] - 'zwave:device:1579c2c54b2:node16' updated: INITIALIZING
+2016-12-21 14:51:49.098 [DEBUG] [.b.z.handler.ZWaveThingHandler:109  ] - Initializing ZWave thing handler.
+2016-12-21 14:51:49.098 [ERROR] [.b.z.handler.ZWaveThingHandler:153  ] - NODE 16: pollingPeriod (null) cannot be parsed - using default
+2016-12-21 14:51:49.098 [DEBUG] [.b.z.handler.ZWaveThingHandler:164  ] - NODE 16: Initialising channel zwave:device:1579c2c54b2:node16:meter_kwh
+2016-12-21 14:51:49.098 [DEBUG] [.b.z.handler.ZWaveThingHandler:224  ] - NODE 16: Initialising cmd channel zwave:device:1579c2c54b2:node16:meter_kwh
+2016-12-21 14:51:49.099 [DEBUG] [.b.z.handler.ZWaveThingHandler:230  ] - NODE 16: Initialising poll channel zwave:device:1579c2c54b2:node16:meter_kwh
+2016-12-21 14:51:49.099 [DEBUG] [.b.z.handler.ZWaveThingHandler:235  ] - NODE 16: Initialising state channel zwave:device:1579c2c54b2:node16:meter_kwh
+2016-12-21 14:51:49.099 [DEBUG] [.b.z.handler.ZWaveThingHandler:164  ] - NODE 16: Initialising channel zwave:device:1579c2c54b2:node16:meter_watts
+2016-12-21 14:51:49.099 [DEBUG] [.b.z.handler.ZWaveThingHandler:224  ] - NODE 16: Initialising cmd channel zwave:device:1579c2c54b2:node16:meter_watts
+2016-12-21 14:51:49.099 [DEBUG] [.b.z.handler.ZWaveThingHandler:230  ] - NODE 16: Initialising poll channel zwave:device:1579c2c54b2:node16:meter_watts
+2016-12-21 14:51:49.099 [DEBUG] [.b.z.handler.ZWaveThingHandler:235  ] - NODE 16: Initialising state channel zwave:device:1579c2c54b2:node16:meter_watts
+2016-12-21 14:51:49.099 [DEBUG] [.b.z.handler.ZWaveThingHandler:164  ] - NODE 16: Initialising channel zwave:device:1579c2c54b2:node16:sensor_power
+2016-12-21 14:51:49.099 [DEBUG] [.b.z.handler.ZWaveThingHandler:224  ] - NODE 16: Initialising cmd channel zwave:device:1579c2c54b2:node16:sensor_power
+2016-12-21 14:51:49.099 [DEBUG] [.b.z.handler.ZWaveThingHandler:230  ] - NODE 16: Initialising poll channel zwave:device:1579c2c54b2:node16:sensor_power
+2016-12-21 14:51:49.100 [DEBUG] [.b.z.handler.ZWaveThingHandler:235  ] - NODE 16: Initialising state channel zwave:device:1579c2c54b2:node16:sensor_power
+2016-12-21 14:51:49.100 [DEBUG] [.b.z.handler.ZWaveThingHandler:164  ] - NODE 16: Initialising channel zwave:device:1579c2c54b2:node16:switch_binary
+2016-12-21 14:51:49.100 [DEBUG] [.b.z.handler.ZWaveThingHandler:224  ] - NODE 16: Initialising cmd channel zwave:device:1579c2c54b2:node16:switch_binary
+2016-12-21 14:51:49.100 [DEBUG] [.b.z.handler.ZWaveThingHandler:230  ] - NODE 16: Initialising poll channel zwave:device:1579c2c54b2:node16:switch_binary
+2016-12-21 14:51:49.100 [DEBUG] [.b.z.handler.ZWaveThingHandler:235  ] - NODE 16: Initialising state channel zwave:device:1579c2c54b2:node16:switch_binary
+2016-12-21 14:51:49.101 [DEBUG] [.b.z.handler.ZWaveThingHandler:396  ] - NODE 16: Controller initialised. Starting device intialisation.
+2016-12-21 14:51:49.101 [DEBUG] [.b.z.handler.ZWaveThingHandler:396  ] - NODE 16: Controller initialised. Starting device intialisation.
+2016-12-21 14:51:49.101 [DEBUG] [.b.z.handler.ZWaveThingHandler:386  ] - NODE 16: Polling intialised at 1800 seconds - start in 1800000 milliseconds.
+2016-12-21 14:51:49.102 [INFO ] [nt.ThingStatusInfoChangedEvent:43   ] - 'zwave:device:1579c2c54b2:node16' changed from UNINITIALIZED (HANDLER_MISSING_ERROR) to INITIALIZING
+2016-12-21 14:51:49.105 [INFO ] [ome.event.ThingStatusInfoEvent:43   ] - 'zwave:device:1579c2c54b2:node16' updated: ONLINE
+2016-12-21 14:51:49.106 [INFO ] [nt.ThingStatusInfoChangedEvent:43   ] - 'zwave:device:1579c2c54b2:node16' changed from INITIALIZING to ONLINE
+2016-12-21 14:51:49.108 [DEBUG] [.b.z.handler.ZWaveThingHandler:769  ] - NODE 16: Command received zwave:device:1579c2c54b2:node16:switch_binary --> REFRESH
+2016-12-21 14:51:49.108 [DEBUG] [.b.z.handler.ZWaveThingHandler:332  ] - startPolling
+2016-12-21 14:51:49.108 [DEBUG] [.b.z.handler.ZWaveThingHandler:386  ] - NODE 16: Polling intialised at 1800 seconds - start in 50 milliseconds.
+2016-12-21 14:51:49.109 [INFO ] [ome.event.ThingStatusInfoEvent:43   ] - 'zwave:device:1579c2c54b2:node16' updated: ONLINE
+2016-12-21 14:51:49.110 [INFO ] [rthome.event.ThingUpdatedEvent:43   ] - Thing 'zwave:device:1579c2c54b2:node16' has been updated.
+2016-12-21 14:51:49.158 [DEBUG] [.b.z.handler.ZWaveThingHandler:351  ] - NODE 16: Polling...
+2016-12-21 14:51:49.159 [DEBUG] [.b.z.handler.ZWaveThingHandler:364  ] - NODE 16: Polling zwave:device:1579c2c54b2:node16:meter_kwh
+2016-12-21 14:51:49.159 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:63   ] - NODE 16: Generating poll message for METER, endpoint 0
+2016-12-21 14:51:49.159 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:73   ] - NODE 16: Generating poll message for METER, endpoint 0
+2016-12-21 14:51:49.159 [DEBUG] [z.i.p.c.ZWaveMeterCommandClass:231  ] - NODE 16: Creating new message for application command METER_GET
+2016-12-21 14:51:49.159 [DEBUG] [.b.z.handler.ZWaveThingHandler:364  ] - NODE 16: Polling zwave:device:1579c2c54b2:node16:meter_watts
+2016-12-21 14:51:49.159 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:63   ] - NODE 16: Generating poll message for METER, endpoint 0
+2016-12-21 14:51:49.159 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:73   ] - NODE 16: Generating poll message for METER, endpoint 0
+2016-12-21 14:51:49.159 [DEBUG] [z.i.p.c.ZWaveMeterCommandClass:231  ] - NODE 16: Creating new message for application command METER_GET
+2016-12-21 14:51:49.159 [DEBUG] [.b.z.handler.ZWaveThingHandler:364  ] - NODE 16: Polling zwave:device:1579c2c54b2:node16:sensor_power
+2016-12-21 14:51:49.159 [DEBUG] [ZWaveMultiLevelSensorConverter:58   ] - NODE 16: Generating poll message for SENSOR_MULTILEVEL, endpoint 0
+2016-12-21 14:51:49.160 [DEBUG] [veMultiLevelSensorCommandClass:202  ] - NODE 16: Creating new message for command SENSOR_MULTI_LEVEL_GET
+2016-12-21 14:51:49.160 [DEBUG] [.b.z.handler.ZWaveThingHandler:364  ] - NODE 16: Polling zwave:device:1579c2c54b2:node16:switch_binary
+2016-12-21 14:51:49.160 [DEBUG] [i.c.ZWaveBinarySwitchConverter:57   ] - NODE 16: Generating poll message for SWITCH_BINARY, endpoint 0
+2016-12-21 14:51:49.160 [DEBUG] [.ZWaveBinarySwitchCommandClass:126  ] - NODE 16: Creating new message for application command SWITCH_BINARY_GET
+2016-12-21 14:51:49.160 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 1. Queue={}
+2016-12-21 14:51:49.160 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 0
+2016-12-21 14:51:49.160 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 1. Queue={}
+2016-12-21 14:51:49.160 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 13 10 02 32 01 25 65 84 
+2016-12-21 14:51:49.160 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 2. Queue={}
+2016-12-21 14:51:49.160 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 09 00 13 10 02 32 01 25 65 84 
+2016-12-21 14:51:49.160 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 3. Queue={}
+2016-12-21 14:51:49.165 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-21 14:51:49.165 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 14:51:49.165 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-21 14:51:49.165 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-21 14:51:49.165 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-21 14:51:49.165 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-21 14:51:49.177 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 65 00 8C 
+2016-12-21 14:51:49.177 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 14:51:49.178 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 65 00 00 00 8E 
+2016-12-21 14:51:49.178 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 65 00 00 00 8E 
+2016-12-21 14:51:49.178 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=65 00 
+2016-12-21 14:51:49.178 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 101, Status = Transmission complete and ACK received(0)
+2016-12-21 14:51:49.178 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 32 01 
+2016-12-21 14:51:49.179 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=65 00 
+2016-12-21 14:51:49.179 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=101, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+2016-12-21 14:51:49.265 [DEBUG] [.b.z.handler.ZWaveThingHandler:769  ] - NODE 16: Command received zwave:device:1579c2c54b2:node16:meter_kwh --> REFRESH
+2016-12-21 14:51:49.266 [DEBUG] [.b.z.handler.ZWaveThingHandler:332  ] - startPolling
+2016-12-21 14:51:49.266 [DEBUG] [.b.z.handler.ZWaveThingHandler:386  ] - NODE 16: Polling intialised at 1800 seconds - start in 50 milliseconds.
+2016-12-21 14:51:49.267 [INFO ] [smarthome.event.ItemAddedEvent:43   ] - Item 'zwave_device_1579c2c54b2_node16_meter_kwh' has been added.
+2016-12-21 14:51:49.267 [INFO ] [smarthome.event.ItemAddedEvent:46   ] - ItemAddedEvent source 'null' 
+2016-12-21 14:51:49.267 [INFO ] [smarthome.event.ItemAddedEvent:47   ] - ItemAddedEvent topic 'smarthome/items/zwave_device_1579c2c54b2_node16_meter_kwh/added' 
+2016-12-21 14:51:49.267 [INFO ] [smarthome.event.ItemAddedEvent:48   ] - ItemAddedEvent payload '{"type":"Number","name":"zwave_device_1579c2c54b2_node16_meter_kwh","label":"Electric meter (kWh)","category":"Energy","tags":[],"groupNames":[]}' 
+2016-12-21 14:51:49.268 [INFO ] [vent.ItemChannelLinkAddedEvent:43   ] - Link 'zwave_device_1579c2c54b2_node16_meter_kwh-zwave:device:1579c2c54b2:node16:meter_kwh' has been added.
+2016-12-21 14:51:49.269 [INFO ] [vent.ItemChannelLinkAddedEvent:51   ] - ItemChannelLinkAddedEvent source 'null' 
+2016-12-21 14:51:49.316 [DEBUG] [.b.z.handler.ZWaveThingHandler:351  ] - NODE 16: Polling...
+2016-12-21 14:51:49.317 [DEBUG] [.b.z.handler.ZWaveThingHandler:364  ] - NODE 16: Polling zwave:device:1579c2c54b2:node16:meter_kwh
+2016-12-21 14:51:49.317 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:63   ] - NODE 16: Generating poll message for METER, endpoint 0
+2016-12-21 14:51:49.317 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:73   ] - NODE 16: Generating poll message for METER, endpoint 0
+2016-12-21 14:51:49.317 [DEBUG] [z.i.p.c.ZWaveMeterCommandClass:231  ] - NODE 16: Creating new message for application command METER_GET
+2016-12-21 14:51:49.317 [DEBUG] [.b.z.handler.ZWaveThingHandler:364  ] - NODE 16: Polling zwave:device:1579c2c54b2:node16:meter_watts
+2016-12-21 14:51:49.317 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:63   ] - NODE 16: Generating poll message for METER, endpoint 0
+2016-12-21 14:51:49.317 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:73   ] - NODE 16: Generating poll message for METER, endpoint 0
+2016-12-21 14:51:49.317 [DEBUG] [z.i.p.c.ZWaveMeterCommandClass:231  ] - NODE 16: Creating new message for application command METER_GET
+2016-12-21 14:51:49.318 [DEBUG] [.b.z.handler.ZWaveThingHandler:364  ] - NODE 16: Polling zwave:device:1579c2c54b2:node16:sensor_power
+2016-12-21 14:51:49.318 [DEBUG] [ZWaveMultiLevelSensorConverter:58   ] - NODE 16: Generating poll message for SENSOR_MULTILEVEL, endpoint 0
+2016-12-21 14:51:49.318 [DEBUG] [veMultiLevelSensorCommandClass:202  ] - NODE 16: Creating new message for command SENSOR_MULTI_LEVEL_GET
+2016-12-21 14:51:49.318 [DEBUG] [.b.z.handler.ZWaveThingHandler:364  ] - NODE 16: Polling zwave:device:1579c2c54b2:node16:switch_binary
+2016-12-21 14:51:49.318 [DEBUG] [i.c.ZWaveBinarySwitchConverter:57   ] - NODE 16: Generating poll message for SWITCH_BINARY, endpoint 0
+2016-12-21 14:51:49.318 [DEBUG] [.ZWaveBinarySwitchCommandClass:126  ] - NODE 16: Creating new message for application command SWITCH_BINARY_GET
+2016-12-21 14:51:49.319 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 4. Queue={}
+2016-12-21 14:51:49.319 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 5. Queue={}
+2016-12-21 14:51:49.319 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 6. Queue={}
+2016-12-21 14:51:49.319 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 7. Queue={}
+2016-12-21 14:51:49.421 [DEBUG] [.b.z.handler.ZWaveThingHandler:769  ] - NODE 16: Command received zwave:device:1579c2c54b2:node16:meter_watts --> REFRESH
+2016-12-21 14:51:49.422 [DEBUG] [.b.z.handler.ZWaveThingHandler:332  ] - startPolling
+2016-12-21 14:51:49.422 [DEBUG] [.b.z.handler.ZWaveThingHandler:386  ] - NODE 16: Polling intialised at 1800 seconds - start in 50 milliseconds.
+2016-12-21 14:51:49.423 [INFO ] [smarthome.event.ItemAddedEvent:43   ] - Item 'zwave_device_1579c2c54b2_node16_meter_watts' has been added.
+2016-12-21 14:51:49.423 [INFO ] [smarthome.event.ItemAddedEvent:46   ] - ItemAddedEvent source 'null' 
+2016-12-21 14:51:49.423 [INFO ] [smarthome.event.ItemAddedEvent:47   ] - ItemAddedEvent topic 'smarthome/items/zwave_device_1579c2c54b2_node16_meter_watts/added' 
+2016-12-21 14:51:49.423 [INFO ] [smarthome.event.ItemAddedEvent:48   ] - ItemAddedEvent payload '{"type":"Number","name":"zwave_device_1579c2c54b2_node16_meter_watts","label":"Electric meter (watts)","category":"Energy","tags":[],"groupNames":[]}' 
+2016-12-21 14:51:49.424 [INFO ] [vent.ItemChannelLinkAddedEvent:43   ] - Link 'zwave_device_1579c2c54b2_node16_meter_watts-zwave:device:1579c2c54b2:node16:meter_watts' has been added.
+2016-12-21 14:51:49.424 [INFO ] [vent.ItemChannelLinkAddedEvent:51   ] - ItemChannelLinkAddedEvent source 'null' 
+2016-12-21 14:51:49.472 [DEBUG] [.b.z.handler.ZWaveThingHandler:351  ] - NODE 16: Polling...
+2016-12-21 14:51:49.473 [DEBUG] [.b.z.handler.ZWaveThingHandler:364  ] - NODE 16: Polling zwave:device:1579c2c54b2:node16:meter_kwh
+2016-12-21 14:51:49.474 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:63   ] - NODE 16: Generating poll message for METER, endpoint 0
+2016-12-21 14:51:49.474 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:73   ] - NODE 16: Generating poll message for METER, endpoint 0
+2016-12-21 14:51:49.474 [DEBUG] [z.i.p.c.ZWaveMeterCommandClass:231  ] - NODE 16: Creating new message for application command METER_GET
+2016-12-21 14:51:49.474 [DEBUG] [.b.z.handler.ZWaveThingHandler:364  ] - NODE 16: Polling zwave:device:1579c2c54b2:node16:meter_watts
+2016-12-21 14:51:49.475 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:63   ] - NODE 16: Generating poll message for METER, endpoint 0
+2016-12-21 14:51:49.475 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:73   ] - NODE 16: Generating poll message for METER, endpoint 0
+2016-12-21 14:51:49.475 [DEBUG] [z.i.p.c.ZWaveMeterCommandClass:231  ] - NODE 16: Creating new message for application command METER_GET
+2016-12-21 14:51:49.475 [DEBUG] [.b.z.handler.ZWaveThingHandler:364  ] - NODE 16: Polling zwave:device:1579c2c54b2:node16:sensor_power
+2016-12-21 14:51:49.476 [DEBUG] [ZWaveMultiLevelSensorConverter:58   ] - NODE 16: Generating poll message for SENSOR_MULTILEVEL, endpoint 0
+2016-12-21 14:51:49.476 [DEBUG] [veMultiLevelSensorCommandClass:202  ] - NODE 16: Creating new message for command SENSOR_MULTI_LEVEL_GET
+2016-12-21 14:51:49.476 [DEBUG] [.b.z.handler.ZWaveThingHandler:364  ] - NODE 16: Polling zwave:device:1579c2c54b2:node16:switch_binary
+2016-12-21 14:51:49.476 [DEBUG] [i.c.ZWaveBinarySwitchConverter:57   ] - NODE 16: Generating poll message for SWITCH_BINARY, endpoint 0
+2016-12-21 14:51:49.476 [DEBUG] [.ZWaveBinarySwitchCommandClass:126  ] - NODE 16: Creating new message for application command SWITCH_BINARY_GET
+2016-12-21 14:51:49.476 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 8. Queue={}
+2016-12-21 14:51:49.477 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 9. Queue={}
+2016-12-21 14:51:49.477 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 10. Queue={}
+2016-12-21 14:51:49.477 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 11. Queue={}
+2016-12-21 14:51:49.566 [DEBUG] [.b.z.handler.ZWaveThingHandler:769  ] - NODE 16: Command received zwave:device:1579c2c54b2:node16:sensor_power --> REFRESH
+2016-12-21 14:51:49.566 [DEBUG] [.b.z.handler.ZWaveThingHandler:332  ] - startPolling
+2016-12-21 14:51:49.567 [DEBUG] [.b.z.handler.ZWaveThingHandler:386  ] - NODE 16: Polling intialised at 1800 seconds - start in 50 milliseconds.
+2016-12-21 14:51:49.567 [INFO ] [smarthome.event.ItemAddedEvent:43   ] - Item 'zwave_device_1579c2c54b2_node16_sensor_power' has been added.
+2016-12-21 14:51:49.568 [INFO ] [smarthome.event.ItemAddedEvent:46   ] - ItemAddedEvent source 'null' 
+2016-12-21 14:51:49.568 [INFO ] [smarthome.event.ItemAddedEvent:47   ] - ItemAddedEvent topic 'smarthome/items/zwave_device_1579c2c54b2_node16_sensor_power/added' 
+2016-12-21 14:51:49.568 [INFO ] [smarthome.event.ItemAddedEvent:48   ] - ItemAddedEvent payload '{"type":"Number","name":"zwave_device_1579c2c54b2_node16_sensor_power","label":"Sensor (power)","category":"Energy","tags":[],"groupNames":[]}' 
+2016-12-21 14:51:49.568 [INFO ] [vent.ItemChannelLinkAddedEvent:43   ] - Link 'zwave_device_1579c2c54b2_node16_sensor_power-zwave:device:1579c2c54b2:node16:sensor_power' has been added.
+2016-12-21 14:51:49.568 [INFO ] [vent.ItemChannelLinkAddedEvent:51   ] - ItemChannelLinkAddedEvent source 'null' 
+2016-12-21 14:51:49.617 [DEBUG] [.b.z.handler.ZWaveThingHandler:351  ] - NODE 16: Polling...
+2016-12-21 14:51:49.617 [DEBUG] [.b.z.handler.ZWaveThingHandler:364  ] - NODE 16: Polling zwave:device:1579c2c54b2:node16:meter_kwh
+2016-12-21 14:51:49.617 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:63   ] - NODE 16: Generating poll message for METER, endpoint 0
+2016-12-21 14:51:49.617 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:73   ] - NODE 16: Generating poll message for METER, endpoint 0
+2016-12-21 14:51:49.618 [DEBUG] [z.i.p.c.ZWaveMeterCommandClass:231  ] - NODE 16: Creating new message for application command METER_GET
+2016-12-21 14:51:49.618 [DEBUG] [.b.z.handler.ZWaveThingHandler:364  ] - NODE 16: Polling zwave:device:1579c2c54b2:node16:meter_watts
+2016-12-21 14:51:49.618 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:63   ] - NODE 16: Generating poll message for METER, endpoint 0
+2016-12-21 14:51:49.618 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:73   ] - NODE 16: Generating poll message for METER, endpoint 0
+2016-12-21 14:51:49.618 [DEBUG] [z.i.p.c.ZWaveMeterCommandClass:231  ] - NODE 16: Creating new message for application command METER_GET
+2016-12-21 14:51:49.618 [DEBUG] [.b.z.handler.ZWaveThingHandler:364  ] - NODE 16: Polling zwave:device:1579c2c54b2:node16:sensor_power
+2016-12-21 14:51:49.619 [DEBUG] [ZWaveMultiLevelSensorConverter:58   ] - NODE 16: Generating poll message for SENSOR_MULTILEVEL, endpoint 0
+2016-12-21 14:51:49.619 [DEBUG] [veMultiLevelSensorCommandClass:202  ] - NODE 16: Creating new message for command SENSOR_MULTI_LEVEL_GET
+2016-12-21 14:51:49.619 [DEBUG] [.b.z.handler.ZWaveThingHandler:364  ] - NODE 16: Polling zwave:device:1579c2c54b2:node16:switch_binary
+2016-12-21 14:51:49.619 [DEBUG] [i.c.ZWaveBinarySwitchConverter:57   ] - NODE 16: Generating poll message for SWITCH_BINARY, endpoint 0
+2016-12-21 14:51:49.619 [DEBUG] [.ZWaveBinarySwitchCommandClass:126  ] - NODE 16: Creating new message for application command SWITCH_BINARY_GET
+2016-12-21 14:51:49.620 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 12. Queue={}
+2016-12-21 14:51:49.620 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 13. Queue={}
+2016-12-21 14:51:49.620 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 14. Queue={}
+2016-12-21 14:51:49.620 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 15. Queue={}
+2016-12-21 14:51:49.700 [DEBUG] [.b.z.handler.ZWaveThingHandler:769  ] - NODE 16: Command received zwave:device:1579c2c54b2:node16:switch_binary --> REFRESH
+2016-12-21 14:51:49.701 [DEBUG] [.b.z.handler.ZWaveThingHandler:332  ] - startPolling
+2016-12-21 14:51:49.701 [DEBUG] [.b.z.handler.ZWaveThingHandler:386  ] - NODE 16: Polling intialised at 1800 seconds - start in 50 milliseconds.
+2016-12-21 14:51:49.702 [INFO ] [smarthome.event.ItemAddedEvent:43   ] - Item 'zwave_device_1579c2c54b2_node16_switch_binary' has been added.
+2016-12-21 14:51:49.702 [INFO ] [smarthome.event.ItemAddedEvent:46   ] - ItemAddedEvent source 'null' 
+2016-12-21 14:51:49.703 [INFO ] [smarthome.event.ItemAddedEvent:47   ] - ItemAddedEvent topic 'smarthome/items/zwave_device_1579c2c54b2_node16_switch_binary/added' 
+2016-12-21 14:51:49.703 [INFO ] [smarthome.event.ItemAddedEvent:48   ] - ItemAddedEvent payload '{"type":"Switch","name":"zwave_device_1579c2c54b2_node16_switch_binary","label":"Switch","category":"Light","tags":[],"groupNames":[]}' 
+2016-12-21 14:51:49.703 [INFO ] [vent.ItemChannelLinkAddedEvent:43   ] - Link 'zwave_device_1579c2c54b2_node16_switch_binary-zwave:device:1579c2c54b2:node16:switch_binary' has been added.
+2016-12-21 14:51:49.703 [INFO ] [vent.ItemChannelLinkAddedEvent:51   ] - ItemChannelLinkAddedEvent source 'null' 
+2016-12-21 14:51:49.751 [DEBUG] [.b.z.handler.ZWaveThingHandler:351  ] - NODE 16: Polling...
+2016-12-21 14:51:49.751 [DEBUG] [.b.z.handler.ZWaveThingHandler:364  ] - NODE 16: Polling zwave:device:1579c2c54b2:node16:meter_kwh
+2016-12-21 14:51:49.752 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:63   ] - NODE 16: Generating poll message for METER, endpoint 0
+2016-12-21 14:51:49.752 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:73   ] - NODE 16: Generating poll message for METER, endpoint 0
+2016-12-21 14:51:49.752 [DEBUG] [z.i.p.c.ZWaveMeterCommandClass:231  ] - NODE 16: Creating new message for application command METER_GET
+2016-12-21 14:51:49.752 [DEBUG] [.b.z.handler.ZWaveThingHandler:364  ] - NODE 16: Polling zwave:device:1579c2c54b2:node16:meter_watts
+2016-12-21 14:51:49.752 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:63   ] - NODE 16: Generating poll message for METER, endpoint 0
+2016-12-21 14:51:49.752 [DEBUG] [.o.b.z.i.c.ZWaveMeterConverter:73   ] - NODE 16: Generating poll message for METER, endpoint 0
+2016-12-21 14:51:49.752 [DEBUG] [z.i.p.c.ZWaveMeterCommandClass:231  ] - NODE 16: Creating new message for application command METER_GET
+2016-12-21 14:51:49.752 [DEBUG] [.b.z.handler.ZWaveThingHandler:364  ] - NODE 16: Polling zwave:device:1579c2c54b2:node16:sensor_power
+2016-12-21 14:51:49.752 [DEBUG] [ZWaveMultiLevelSensorConverter:58   ] - NODE 16: Generating poll message for SENSOR_MULTILEVEL, endpoint 0
+2016-12-21 14:51:49.752 [DEBUG] [veMultiLevelSensorCommandClass:202  ] - NODE 16: Creating new message for command SENSOR_MULTI_LEVEL_GET
+2016-12-21 14:51:49.752 [DEBUG] [.b.z.handler.ZWaveThingHandler:364  ] - NODE 16: Polling zwave:device:1579c2c54b2:node16:switch_binary
+2016-12-21 14:51:49.753 [DEBUG] [i.c.ZWaveBinarySwitchConverter:57   ] - NODE 16: Generating poll message for SWITCH_BINARY, endpoint 0
+2016-12-21 14:51:49.753 [DEBUG] [.ZWaveBinarySwitchCommandClass:126  ] - NODE 16: Creating new message for application command SWITCH_BINARY_GET
+2016-12-21 14:51:49.753 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 16. Queue={}
+2016-12-21 14:51:49.753 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 17. Queue={}
+2016-12-21 14:51:49.753 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 18. Queue={}
+2016-12-21 14:51:49.753 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 19. Queue={}
+2016-12-21 14:51:54.160 [ERROR] [WaveController$ZWaveSendThread:1211 ] - NODE 16: Timeout while sending message. Requeueing - 2 attempts left!
+2016-12-21 14:51:54.161 [ERROR] [b.z.i.p.s.SendDataMessageClass:162  ] - NODE 16: Got an error while sending data. Resending message.
+2016-12-21 14:51:54.161 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 20. Queue={}
+2016-12-21 14:51:54.162 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 19
+2016-12-21 14:51:54.162 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 13 10 02 32 01 25 79 98 
+2016-12-21 14:51:54.162 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 09 00 13 10 02 32 01 25 79 98 
+2016-12-21 14:51:54.167 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-21 14:51:54.167 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 14:51:54.168 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-21 14:51:54.168 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-21 14:51:54.168 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-21 14:51:54.168 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-21 14:51:54.179 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 79 00 90 
+2016-12-21 14:51:54.179 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 14:51:54.180 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 79 00 00 00 92 
+2016-12-21 14:51:54.180 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 79 00 00 00 92 
+2016-12-21 14:51:54.180 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=79 00 
+2016-12-21 14:51:54.180 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 121, Status = Transmission complete and ACK received(0)
+2016-12-21 14:51:54.180 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 32 01 
+2016-12-21 14:51:54.181 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=79 00 
+2016-12-21 14:51:54.181 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=121, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+2016-12-21 14:51:55.007 [ERROR] [io.rest.core.item.ItemResource:283  ] - Received HTTP POST request at 'items/zwave_device_1579c2c54b2_node16_switch_binary' with value 'ON'.
+2016-12-21 14:51:55.008 [DEBUG] [.b.z.handler.ZWaveThingHandler:769  ] - NODE 16: Command received zwave:device:1579c2c54b2:node16:switch_binary --> ON
+2016-12-21 14:51:55.008 [DEBUG] [.ZWaveBinarySwitchCommandClass:144  ] - NODE 16: Creating new message for application command SWITCH_BINARY_SET
+2016-12-21 14:51:55.008 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 20. Queue={}
+2016-12-21 14:51:55.009 [INFO ] [arthome.event.ItemCommandEvent:43   ] - Item 'zwave_device_1579c2c54b2_node16_switch_binary' received command ON
+2016-12-21 14:51:55.011 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_device_1579c2c54b2_node16_switch_binary updated to ON
+2016-12-21 14:51:55.011 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_device_1579c2c54b2_node16_switch_binary changed from NULL to ON
+2016-12-21 14:51:59.162 [ERROR] [WaveController$ZWaveSendThread:1211 ] - NODE 16: Timeout while sending message. Requeueing - 1 attempts left!
+2016-12-21 14:51:59.163 [ERROR] [b.z.i.p.s.SendDataMessageClass:162  ] - NODE 16: Got an error while sending data. Resending message.
+2016-12-21 14:51:59.163 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 21. Queue={}
+2016-12-21 14:51:59.163 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 20
+2016-12-21 14:51:59.164 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 0A 00 13 10 03 25 01 FF 25 7A 71 
+2016-12-21 14:51:59.164 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 0A 00 13 10 03 25 01 FF 25 7A 71 
+2016-12-21 14:51:59.169 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-21 14:51:59.169 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 14:51:59.169 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-21 14:51:59.169 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-21 14:51:59.170 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-21 14:51:59.170 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-21 14:51:59.181 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 7A 00 93 
+2016-12-21 14:51:59.181 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 14:51:59.181 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 7A 00 00 00 91 
+2016-12-21 14:51:59.181 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 7A 00 00 00 91 
+2016-12-21 14:51:59.182 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=7A 00 
+2016-12-21 14:51:59.182 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 122, Status = Transmission complete and ACK received(0)
+2016-12-21 14:51:59.182 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Set, dest=16, payload=10 03 25 01 FF 
+2016-12-21 14:51:59.182 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=7A 00 
+2016-12-21 14:51:59.182 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:95   ] - Checking transaction complete: class=SendData, callback id=122, expected=SendData, cancelled=false        transaction complete!
+2016-12-21 14:51:59.182 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveTransactionCompletedEvent
+2016-12-21 14:51:59.183 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveTransactionCompletedEvent
+2016-12-21 14:51:59.183 [DEBUG] [WaveController$ZWaveSendThread:1228 ] - NODE 16: Response processed after 19ms/426ms.
+2016-12-21 14:51:59.183 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 19
+2016-12-21 14:51:59.183 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 13 10 02 32 01 25 7B 9A 
+2016-12-21 14:51:59.183 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 09 00 13 10 02 32 01 25 7B 9A 
+2016-12-21 14:51:59.188 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-21 14:51:59.188 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 14:51:59.188 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-21 14:51:59.189 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-21 14:51:59.189 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-21 14:51:59.189 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-21 14:51:59.200 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 7B 00 92 
+2016-12-21 14:51:59.201 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 14:51:59.201 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 7B 00 00 00 90 
+2016-12-21 14:51:59.201 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 7B 00 00 00 90 
+2016-12-21 14:51:59.201 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=7B 00 
+2016-12-21 14:51:59.201 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 123, Status = Transmission complete and ACK received(0)
+2016-12-21 14:51:59.202 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 32 01 
+2016-12-21 14:51:59.202 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=7B 00 
+2016-12-21 14:51:59.202 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=123, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+2016-12-21 14:52:00.670 [ERROR] [io.rest.core.item.ItemResource:283  ] - Received HTTP POST request at 'items/zwave_device_1579c2c54b2_node16_switch_binary' with value 'OFF'.
+2016-12-21 14:52:00.671 [DEBUG] [.b.z.handler.ZWaveThingHandler:769  ] - NODE 16: Command received zwave:device:1579c2c54b2:node16:switch_binary --> OFF
+2016-12-21 14:52:00.672 [DEBUG] [.ZWaveBinarySwitchCommandClass:144  ] - NODE 16: Creating new message for application command SWITCH_BINARY_SET
+2016-12-21 14:52:00.672 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 20. Queue={}
+2016-12-21 14:52:00.673 [INFO ] [arthome.event.ItemCommandEvent:43   ] - Item 'zwave_device_1579c2c54b2_node16_switch_binary' received command OFF
+2016-12-21 14:52:00.674 [INFO ] [smarthome.event.ItemStateEvent:43   ] - zwave_device_1579c2c54b2_node16_switch_binary updated to OFF
+2016-12-21 14:52:00.674 [INFO ] [s.event.ItemStateChangedEvent :43   ] - zwave_device_1579c2c54b2_node16_switch_binary changed from ON to OFF
+2016-12-21 14:52:04.183 [ERROR] [WaveController$ZWaveSendThread:1211 ] - NODE 16: Timeout while sending message. Requeueing - 0 attempts left!
+2016-12-21 14:52:04.184 [ERROR] [b.z.i.p.s.SendDataMessageClass:162  ] - NODE 16: Got an error while sending data. Resending message.
+2016-12-21 14:52:04.184 [DEBUG] [b.z.i.protocol.ZWaveController:513  ] - Message queued. Queue length = 21. Queue={}
+2016-12-21 14:52:04.184 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 20
+2016-12-21 14:52:04.185 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 0A 00 13 10 03 25 01 00 25 7C 88 
+2016-12-21 14:52:04.185 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 0A 00 13 10 03 25 01 00 25 7C 88 
+2016-12-21 14:52:04.190 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-21 14:52:04.190 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 14:52:04.191 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-21 14:52:04.191 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-21 14:52:04.191 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-21 14:52:04.191 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-21 14:52:04.202 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 7C 00 95 
+2016-12-21 14:52:04.203 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 14:52:04.203 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 7C 00 00 00 97 
+2016-12-21 14:52:04.203 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 7C 00 00 00 97 
+2016-12-21 14:52:04.203 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=7C 00 
+2016-12-21 14:52:04.204 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 124, Status = Transmission complete and ACK received(0)
+2016-12-21 14:52:04.204 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Set, dest=16, payload=10 03 25 01 00 
+2016-12-21 14:52:04.204 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=7C 00 
+2016-12-21 14:52:04.204 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:95   ] - Checking transaction complete: class=SendData, callback id=124, expected=SendData, cancelled=false        transaction complete!
+2016-12-21 14:52:04.204 [DEBUG] [b.z.i.protocol.ZWaveController:530  ] - Notifying event listeners: ZWaveTransactionCompletedEvent
+2016-12-21 14:52:04.204 [DEBUG] [.b.z.handler.ZWaveThingHandler:835  ] - NODE 16: Got an event from Z-Wave network: ZWaveTransactionCompletedEvent
+2016-12-21 14:52:04.204 [DEBUG] [WaveController$ZWaveSendThread:1228 ] - NODE 16: Response processed after 19ms/426ms.
+2016-12-21 14:52:04.205 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 19
+2016-12-21 14:52:04.205 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 13 10 02 32 01 25 7D 9C 
+2016-12-21 14:52:04.205 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 09 00 13 10 02 32 01 25 7D 9C 
+2016-12-21 14:52:04.210 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-21 14:52:04.211 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 14:52:04.211 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-21 14:52:04.211 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-21 14:52:04.211 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-21 14:52:04.211 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-21 14:52:04.222 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 7D 00 94 
+2016-12-21 14:52:04.223 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 14:52:04.223 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 7D 00 00 00 96 
+2016-12-21 14:52:04.223 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 7D 00 00 00 96 
+2016-12-21 14:52:04.224 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=7D 00 
+2016-12-21 14:52:04.224 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 125, Status = Transmission complete and ACK received(0)
+2016-12-21 14:52:04.224 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 32 01 
+2016-12-21 14:52:04.224 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=7D 00 
+2016-12-21 14:52:04.224 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=125, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+2016-12-21 14:52:09.205 [WARN ] [WaveController$ZWaveSendThread:1219 ] - NODE 16: Too many retries. Discarding message: Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 32 01 
+2016-12-21 14:52:09.206 [DEBUG] [WaveController$ZWaveSendThread:1121 ] - Took message from queue for sending. Queue length = 18
+2016-12-21 14:52:09.206 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 09 00 13 10 02 32 01 25 66 87 
+2016-12-21 14:52:09.206 [DEBUG] [b.z.handler.ZWaveSerialHandler:300  ] - NODE 16: Sending REQUEST Message = 01 09 00 13 10 02 32 01 25 66 87 
+2016-12-21 14:52:09.211 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 04 01 13 01 E8 
+2016-12-21 14:52:09.211 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 14:52:09.211 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 04 01 13 01 E8 
+2016-12-21 14:52:09.211 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 04 01 13 01 E8 
+2016-12-21 14:52:09.212 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Response[0x01], priority=High, dest=255, payload=01 
+2016-12-21 14:52:09.212 [DEBUG] [b.z.i.p.s.SendDataMessageClass:38   ] - NODE 16: Sent Data successfully placed on stack.
+2016-12-21 14:52:09.223 [DEBUG] [rialHandler$ZWaveReceiveThread:239  ] - Receive Message = 01 05 00 13 66 00 8F 
+2016-12-21 14:52:09.223 [DEBUG] [b.z.i.protocol.ZWaveController:1068 ] - Receive queue TAKE: Length=0
+2016-12-21 14:52:09.223 [DEBUG] [o.b.z.i.protocol.SerialMessage:246  ] - Assembled message buffer = 01 07 00 13 66 00 00 00 8D 
+2016-12-21 14:52:09.224 [DEBUG] [b.z.i.protocol.ZWaveController:1069 ] - Process Message = 01 07 00 13 66 00 00 00 8D 
+2016-12-21 14:52:09.224 [DEBUG] [b.z.i.protocol.ZWaveController:202  ] - Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=66 00 
+2016-12-21 14:52:09.224 [DEBUG] [b.z.i.p.s.SendDataMessageClass:73   ] - NODE 16: SendData Request. CallBack ID = 102, Status = Transmission complete and ACK received(0)
+2016-12-21 14:52:09.224 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:80   ] - Checking transaction complete: Sent message Message: class=SendData[0x13], type=Request[0x00], priority=Get, dest=16, payload=10 02 32 01 
+2016-12-21 14:52:09.224 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:91   ] - Checking transaction complete: Recv message Message: class=SendData[0x13], type=Request[0x00], priority=High, dest=255, payload=66 00 
+2016-12-21 14:52:09.224 [DEBUG] [.z.i.p.s.ZWaveCommandProcessor:110  ] - Checking transaction complete: class=SendData, callback id=102, expected=ApplicationCommandHandler, cancelled=false      MISMATCH
+
